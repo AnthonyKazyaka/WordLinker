@@ -43,17 +43,17 @@ namespace WordLinkerTool
         public MainWindow()
         {
             InitializeComponent();
-            try
-            {
-                wordFile = XDocument.Load(fileLocation);
-            }
-            catch
-            {
-                wordFile = new XDocument();
-                wordFile.Add(new XElement("root"));
-            }
-
-            ReadFromFile(readTextFileLocation);
+//            try
+//            {
+//                wordFile = XDocument.Load(fileLocation);
+//            }
+//            catch
+//            {
+//                wordFile = new XDocument();
+//                wordFile.Add(new XElement("root"));
+//            }
+            
+            //ReadFromFile(readTextFileLocation);
         }
 
         private void SubmitWordLinks(object sender, RoutedEventArgs e)
@@ -191,6 +191,26 @@ namespace WordLinkerTool
                 SecondWordTextBox.Text = initialSecondWordText;
                 //SecondWordTextBox.Foreground = placeholderTextBrush;
             }
+        }
+
+        private void XmlSaveDestButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void ImportFileLocButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void RemoveLinkButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void FlushButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }
