@@ -6,7 +6,7 @@ House:
 	-music,
 	-phone,
 	Club-,
-	Tree-
+	Tree-,
 Bread:
 	-winner,
 	Banana-,
@@ -41,7 +41,7 @@ Baby:
 	-toys,
 	Santa-,
 	-grand,
-	Newborn-
+	Newborn-,
 Apple:
 	-pie,
 	-juice,
@@ -49,7 +49,7 @@ Apple:
 	-orchard,
 	Green-,
 	Sour-,
-	-picking
+	-picking,
 Computer:
 	-virus,
 	Personal-,
@@ -69,11 +69,11 @@ Tooth:
 	Baby-,
 	-decay,
 	-fairy,
-	Saw-
+	Saw-,
 Teeth:
 	Wisdom-,
 	-marks,
-	Gear-
+	Gear-,
 War:
 	Cold-,
 	Nuclear-,
@@ -83,7 +83,7 @@ War:
 Movie:
 	War-,
 	Action-,
-	Adult-
+	Adult-,
 Film:
 	Short-,
 	Action-,
@@ -101,13 +101,13 @@ Smart:
 	-cookie,
 	Street-,
 	Book-,
-	Guy-
+	-guy,
 Star:
 	-fish,
 	-power,
 	-studded,
 	-system,
-	Movie-
+	Movie-,
 Show:
 	Television-,
 	-host,
@@ -118,13 +118,13 @@ Show:
 	-room,
 	-time,
 	Broadway-,
-	Talent-
+	Talent-,
 Shirt:
 	Tee-,
 	Polo-,
 	Collared-,
 	Dress-,
-	Red-
+	Red-,
 Tree:
 	Peach-,
 	Lemon-,
@@ -361,7 +361,7 @@ Day:
 	-light,
 	Work-,
 	School-,
--dream,
+	-dream,
 Dream:
 	-weaver,
 	-catcher,
