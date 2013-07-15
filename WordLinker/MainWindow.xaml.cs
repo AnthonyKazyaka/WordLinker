@@ -1,20 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Xml.Linq;
-using System.Text;
-using System.IO;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Diagnostics;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
+using System.IO;
+using System.Windows;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using System.Diagnostics;
+using System.Windows.Forms;
 
 namespace WordLinkerTool
 {
@@ -23,49 +12,35 @@ namespace WordLinkerTool
     /// </summary>
     public partial class MainWindow : Window
     {
-        string initialFirstWordText = "First Word";
-        string initialSecondWordText = "Second Word";
+        const string initialFirstWordText = "First Word";
+        const string initialSecondWordText = "Second Word";
 
         string parsedWord;
-
         StreamReader reader;
-        XDocument wordFile;
+        private readonly XMLWriter xwriter = new XMLWriter();
 
-        string fileLocation = "C:\\Users\\Anthony\\Documents\\Visual Studio 2012\\Projects\\WordLinker\\LinkedWords\\LinkedWords.xml";
-        string readTextFileLocation = "C:\\Users\\Anthony\\Documents\\Chain Reaction\\ChainReactionWords.txt";
-
-        string successfulAdditionMessage = "Success!";
-        string duplicateWordsMessage = "This pair of linked words already exists.";
-        SolidColorBrush successBrush = new SolidColorBrush(Colors.Green);
-        SolidColorBrush errorBrush = new SolidColorBrush(Colors.Red);
-        SolidColorBrush placeholderTextBrush = new SolidColorBrush(Color.FromArgb(200, 255, 255, 255));
+        const string successfulAdditionMessage = "Success!";
+        const string duplicateWordsMessage = "This pair of linked words already exists.";
+        readonly SolidColorBrush successBrush = new SolidColorBrush(Colors.Green);
+        readonly SolidColorBrush errorBrush = new SolidColorBrush(Colors.Red);
 
         public MainWindow()
         {
             InitializeComponent();
-            try
-            {
-                wordFile = XDocument.Load(fileLocation);
-            }
-            catch
-            {
-                wordFile = new XDocument();
-                wordFile.Add(new XElement("root"));
-            }
 
-            ReadFromFile(readTextFileLocation);
         }
 
         private void SubmitWordLinks(object sender, RoutedEventArgs e)
         {
-            LinkedWords words = new LinkedWords()
+            var words = new LinkedWords()
             {
                 FirstWord = FirstWordTextBox.Text,
                 SecondWord = SecondWordTextBox.Text
             };
-            if (AreLinkedWordsUnique(words))
+
+            if (xwriter.AreLinkedWordsUnique(words))
             {
-                AddLinkedWordsToXML(words);
+                LinkListBox.Items.Add(words);
                 MessageTextBlock.Text = successfulAdditionMessage;
                 MessageTextBlock.Foreground = successBrush;
                 ResetTextBoxes();
@@ -84,21 +59,6 @@ namespace WordLinkerTool
             SecondWordTextBox.Text = "";
         }
 
-        private void AddLinkedWordsToXML(string firstWord, string secondWord)
-        {
-            XElement link = new XElement("link", new XElement("FirstWord", firstWord), new XElement("SecondWord", secondWord));
-
-            wordFile.Element("root").Add(link);
-            wordFile.Save(fileLocation);
-        }
-
-        private void AddLinkedWordsToXML(LinkedWords wordPair)
-        {
-            XElement link = new XElement("link", new XElement("FirstWord", wordPair.FirstWord), new XElement("SecondWord", wordPair.SecondWord));
-
-            wordFile.Element("root").Add(link);
-            wordFile.Save(fileLocation);
-        }
 
         private void ReadFromFile(string readFileLocation)
         {
@@ -106,26 +66,21 @@ namespace WordLinkerTool
 
             while (!reader.EndOfStream)
             {
-                string line = ParseLine();
-                if (line != null || string.IsNullOrWhiteSpace(line))
-                    ParseLineToCreateLink(line);
-                else break;
+                var line = reader.ReadLine();
+                
+                ParseLineToCreateLink(line);
             }
         }
 
-        private string ParseLine()
-        {
-            return reader.ReadLine();
-        }
-
-        //Note to self: learn RegEx.
+        //Anthony Notes: learn RegEx.
         private void ParseLineToCreateLink(string line)
         {
-            LinkedWords parsedLink = new LinkedWords();
+            var parsedLink = new LinkedWords();
             string trimmedLine = line.Trim();
+            
             if (trimmedLine[trimmedLine.Length - 1] == ':')
             {
-                parsedWord = trimmedLine.Remove(trimmedLine.Length - 1).ToLower();
+                parsedWord = trimmedLine.Remove(trimmedLine.Length - 1).ToLower(); //Jusitn Notes: This doesn't do anything?
             }
             else
             {
@@ -133,36 +88,80 @@ namespace WordLinkerTool
                 {
                     parsedLink.FirstWord = parsedWord;
                     parsedLink.SecondWord = trimmedLine.Substring(1, trimmedLine.Length - 2).ToLower();
+
                     Debug.WriteLine(parsedLink.FirstWord + " + " + parsedLink.SecondWord);
-                    if (AreLinkedWordsUnique(parsedLink))
-                        AddLinkedWordsToXML(parsedLink);
+                    if (xwriter.AreLinkedWordsUnique(parsedLink))
+                    {
+                        LinkListBox.Items.Add(parsedLink);
+                    }
                 }
                 else if (trimmedLine[trimmedLine.Length - 2] == '-')
                 {
-                    parsedLink.FirstWord = trimmedLine.Substring(0, trimmedLine.Length-2).ToLower();
+                    parsedLink.FirstWord = trimmedLine.Substring(0, trimmedLine.Length - 2).ToLower();
                     parsedLink.SecondWord = parsedWord;
+
                     Debug.WriteLine(parsedLink.FirstWord + " + " + parsedLink.SecondWord);
-                    if(AreLinkedWordsUnique(parsedLink))
-                        AddLinkedWordsToXML(parsedLink);
+                    if (xwriter.AreLinkedWordsUnique(parsedLink))
+                    {
+                        LinkListBox.Items.Add(parsedLink);
+                    }
                 }
             }
         }
 
-        /// <summary>
-        /// Returns true if there are no duplicates.
-        /// </summary>
-        /// <param name="words"></param>
-        /// <returns></returns>
-        private bool AreLinkedWordsUnique(LinkedWords words)
+        private void XmlSaveDestButton_OnClick(object sender, RoutedEventArgs e)
         {
-            var nodes = from elements in wordFile.Elements("root").Elements("link")
-                        where elements.Element("FirstWord").Value == words.FirstWord && elements.Element("SecondWord").Value == words.SecondWord
-                        select elements;
-            if (nodes.Count() == 0)
-                return true;
-            else return false;
+            if (e.OriginalSource.Equals(XmlSaveDestButtonFile))
+            {
+                var dialog = new OpenFileDialog();
+                dialog.ShowDialog();
+
+                XmlSaveDestination.Text = dialog.FileName;
+            }
+            else
+            {
+                var dialog = new FolderBrowserDialog();
+                dialog.ShowDialog();
+
+                XmlSaveDestination.Text = dialog.SelectedPath;
+            }
         }
 
+        private void ImportFileLocButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            var dialog = new OpenFileDialog();
+            dialog.ShowDialog();
+
+            ImportFileLocation.Text = dialog.FileName;
+        }
+
+        private void RemoveLinkButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            LinkListBox.Items.Remove(LinkListBox.SelectedItem);
+        }
+
+        private void FlushButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            foreach (var link in LinkListBox.Items)
+            {
+                xwriter.AddLinkedWordsToXML((LinkedWords)link);
+            }
+
+            LinkListBox.Items.Clear();
+
+        }
+
+        private void ReadFromFileButton_Click(object sender, RoutedEventArgs e)
+        {
+            ReadFromFile(ImportFileLocation.Text);
+        }
+        
+        private void XmlSaveDestination_OnTextChanged(object sender, TextChangedEventArgs e)
+        {
+            xwriter.fileLocation = XmlSaveDestination.Text;
+        }
+
+        #region TextBox Placeholder Methods
         private void FirstWordTextBox_GotFocus(object sender, RoutedEventArgs e)
         {
             if (FirstWordTextBox.Text == initialFirstWordText)
@@ -192,5 +191,8 @@ namespace WordLinkerTool
                 //SecondWordTextBox.Foreground = placeholderTextBrush;
             }
         }
+        #endregion
+
+       
     }
 }
