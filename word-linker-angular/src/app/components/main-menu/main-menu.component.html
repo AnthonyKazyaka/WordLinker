@@ -1,0 +1,27 @@
+<div class="main-menu">
+  <h1>Word Linker</h1>
+  
+  <div class="menu-content">
+    <div class="description">
+      <p>
+        Create a chain of word pairs where the second word of each phrase becomes the first word of the next phrase.
+      </p>
+      <p>
+        Example: Dog <strong>House</strong> → <strong>House</strong> Key → Key <strong>Chain</strong> → <strong>Chain</strong> Link
+      </p>
+    </div>
+    
+    <div class="game-start" *ngIf="dictionaryLoaded">
+      <div class="form-group">
+        <label for="startWord">Optional: Enter a word to start with:</label>
+        <input type="text" id="startWord" [(ngModel)]="startWord" placeholder="e.g. House">
+      </div>
+      
+      <button (click)="startGame()" class="start-button">Start Game</button>
+    </div>
+    
+    <div *ngIf="!dictionaryLoaded" class="loading">
+      Loading word dictionary...
+    </div>
+  </div>
+</div>

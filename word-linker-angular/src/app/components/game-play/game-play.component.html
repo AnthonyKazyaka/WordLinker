@@ -1,0 +1,60 @@
+<div class="game-container">
+  <div class="game-header">
+    <h1>Word Linker Game</h1>
+    <div class="game-stats">
+      <div class="score">Score: {{ game?.score }}</div>
+      <div class="chain-length">Chain Length: {{ game?.currentWordChain?.length || 0 }}/{{ game?.maxChainLength }}</div>
+    </div>
+  </div>
+  
+  <div class="current-word-container">
+    <div class="current-word" *ngIf="game?.currentWord">
+      <h2>Current Word: <span>{{ game.currentWord }}</span></h2>
+    </div>
+  </div>
+  
+  <div class="word-chain-container">
+    <h3>Your Word Chain:</h3>
+    <div class="word-chain">
+      <div *ngIf="game?.currentWordChain?.length === 0" class="empty-chain">
+        No words in chain yet. Start by selecting a word pair below.
+      </div>
+      <ul *ngIf="game?.currentWordChain?.length > 0">
+        <li *ngFor="let pair of game.currentWordChain; let i = index">
+          <span class="order">{{ i + 1 }}.</span>
+          <span class="word-pair">{{ pair.firstWord }} - {{ pair.secondWord }}</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="available-pairs-container" *ngIf="!game?.isGameOver">
+    <h3>Available Word Pairs:</h3>
+    <div class="available-pairs">
+      <div *ngIf="availableWordPairs.length === 0" class="no-pairs">
+        No compatible word pairs available.
+      </div>
+      <ul *ngIf="availableWordPairs.length > 0">
+        <li *ngFor="let pair of availableWordPairs" 
+            (click)="selectWordPair(pair)" 
+            class="word-pair-item">
+          <span class="word-pair">{{ pair.firstWord }} - {{ pair.secondWord }}</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="game-over-container" *ngIf="game?.isGameOver">
+    <h2>Game Over!</h2>
+    <p>Your final score: {{ game.score }}</p>
+    <div class="game-over-actions">
+      <button (click)="restartGame()">Play Again</button>
+      <button (click)="goToMenu()">Main Menu</button>
+    </div>
+  </div>
+  
+  <div class="game-controls">
+    <button (click)="goToMenu()" class="menu-button">Back to Menu</button>
+    <button (click)="restartGame()" class="restart-button">Restart Game</button>
+  </div>
+</div>
