@@ -20,6 +20,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
+          cache: 'npm'
+          cache-dependency-path: './word-linker-angular/package-lock.json'
 
       - name: Install dependencies
         working-directory: ./word-linker-angular
@@ -27,11 +29,11 @@ jobs:
 
       - name: Build
         working-directory: ./word-linker-angular
-        run: npm run build -- --configuration=github-pages
+        run: npm run build:gh-pages
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          folder: ./word-linker-angular/dist/word-linker-angular
-          clean: true  # Automatically remove deleted files from the deployment branch
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./word-linker-angular/dist/word-linker-angular/browser
+          force_orphan: true
