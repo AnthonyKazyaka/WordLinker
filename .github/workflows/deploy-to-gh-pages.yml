@@ -1,0 +1,34 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Change this to your main branch name if different
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        working-directory: ./word-linker-angular
+        run: npm ci
+
+      - name: Build
+        working-directory: ./word-linker-angular
+        run: npm run build -- --configuration=github-pages
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          branch: gh-pages  # The branch the action should deploy to
+          folder: ./word-linker-angular/dist/word-linker-angular  # The folder the action should deploy
+          clean: true  # Automatically remove deleted files from the deployment branch
