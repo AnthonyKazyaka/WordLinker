@@ -25,7 +25,9 @@ The Angular application is in the `word-linker-angular` directory. See the READM
 
 ### Testing from Feature Branches
 
-To test changes from a feature branch before merging to the main branch:
+You can test changes from a feature branch in two ways:
+
+#### Local Testing
 
 1. Clone the repository and checkout your feature branch:
    ```bash
@@ -56,6 +58,25 @@ To test changes from a feature branch before merging to the main branch:
    ```bash
    npm run test-build
    ```
+
+#### Web Testing (GitHub Pages)
+
+Feature branches are automatically deployed to GitHub Pages when pushed to the repository:
+
+1. Push your feature branch to GitHub:
+   ```bash
+   git push origin your-feature-branch
+   ```
+
+2. GitHub Actions will automatically build and deploy your branch
+   
+3. Access your deployed feature branch at:
+   ```
+   https://anthonykazyaka.github.io/WordLinker/branches/your-feature-branch/
+   ```
+   (Special characters in branch names are replaced with hyphens)
+
+4. You can also manually trigger a deployment from the Actions tab in the GitHub repository
 
 For more detailed testing instructions, see the README in the `word-linker-angular` directory.
 

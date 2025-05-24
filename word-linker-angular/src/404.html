@@ -7,8 +7,19 @@
   <script>
     // Store the URL the user was trying to access when receiving the 404
     sessionStorage.setItem('redirect', window.location.pathname);
-    // Redirect to the index.html page
-    window.location.href = '/WordLinker/';
+    
+    // Determine the base path from the current URL
+    var pathSegments = window.location.pathname.split('/');
+    var basePath = '/WordLinker/';
+    
+    // Check if URL contains /branches/ to handle feature branch deployments
+    var branchesIndex = pathSegments.indexOf('branches');
+    if (branchesIndex !== -1 && pathSegments.length > branchesIndex + 1) {
+      basePath = '/WordLinker/branches/' + pathSegments[branchesIndex + 1] + '/';
+    }
+    
+    // Redirect to the appropriate index.html page
+    window.location.href = basePath;
   </script>
 </head>
 <body>

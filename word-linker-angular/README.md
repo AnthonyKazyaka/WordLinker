@@ -52,7 +52,7 @@ The project can be deployed to GitHub Pages in two ways:
 
 ## Testing Before Merging
 
-When working on a feature branch, you can test your changes locally before merging to the main branch:
+When working on a feature branch, you can test your changes before merging to the main branch:
 
 ### Local Development Testing
 
@@ -110,6 +110,36 @@ npm run test-build
 ```
 
 Then open your browser and navigate to `http://localhost:8080/` to test the built application.
+
+### Web Testing on GitHub Pages
+
+To test your feature branch on the web similar to the production environment:
+
+1. Push your feature branch to GitHub:
+   ```bash
+   git push origin your-feature-branch
+   ```
+
+2. GitHub Actions will automatically build and deploy your branch to GitHub Pages in a branch-specific directory
+
+3. Access your deployed feature branch at:
+   ```
+   https://anthonykazyaka.github.io/WordLinker/branches/your-feature-branch/
+   ```
+   Note: Special characters in branch names are replaced with hyphens
+
+4. You can also manually trigger a deployment:
+   - Go to the GitHub repository
+   - Click on the "Actions" tab
+   - Select "Deploy Feature Branch to GitHub Pages" workflow
+   - Click "Run workflow"
+   - Select your branch and click "Run workflow"
+
+5. To build locally with the same base href that will be used on GitHub Pages:
+   ```bash
+   npm run build:branch
+   ```
+   This will output the URL where your branch will be deployed.
 
 ## Running end-to-end tests
 

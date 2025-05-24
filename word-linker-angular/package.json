@@ -10,6 +10,7 @@
     "test:ci": "ng test --no-watch --browsers=ChromeHeadless",
     "build:gh-pages": "ng build --configuration=github-pages",
     "deploy:gh-pages": "npm run build:gh-pages",
+    "build:branch": "node scripts/build-branch.js",
     "test-build": "npm run build && npx http-server dist/word-linker-angular/browser -p 8080 -o"
   },
   "private": true,
