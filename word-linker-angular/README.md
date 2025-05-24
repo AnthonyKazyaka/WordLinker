@@ -50,13 +50,66 @@ The project can be deployed to GitHub Pages in two ways:
 
 2. **Manual Deployment**: Build the project using the command above and then use the GitHub Pages settings in the repository to deploy from the `/docs` folder or the `gh-pages` branch.
 
-## Running unit tests
+## Testing Before Merging
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+When working on a feature branch, you can test your changes locally before merging to the main branch:
+
+### Local Development Testing
+
+1. Make your changes in your feature branch
+2. Run the development server to test the application:
 
 ```bash
-ng test
+npm start
 ```
+
+3. Open your browser and navigate to `http://localhost:4200/` to see your changes
+
+### Headless Unit Testing
+
+To run unit tests with the [Karma](https://karma-runner.github.io) test runner without opening a browser window:
+
+```bash
+npm run test:ci
+```
+
+Or with the longer command:
+
+```bash
+npm test -- --no-watch --browsers=ChromeHeadless
+```
+
+For interactive testing with browser window:
+
+```bash
+npm test
+```
+
+### Building for Testing
+
+To build the application and verify it works correctly:
+
+```bash
+npm run build
+```
+
+You can then serve the built application locally using a static file server:
+
+```bash
+# Install a simple HTTP server if you don't have one
+npm install -g http-server
+
+# Serve the built application
+http-server dist/word-linker-angular/browser -p 8080
+```
+
+Or use the convenience script that will build and serve in one command:
+
+```bash
+npm run test-build
+```
+
+Then open your browser and navigate to `http://localhost:8080/` to test the built application.
 
 ## Running end-to-end tests
 
