@@ -55,7 +55,9 @@ describe('GameService', () => {
       
       gameService.getGameState().subscribe(game => {
         expect(game.currentWord).toBeTruthy();
-        expect(['cat', 'dog']).toContain(game.currentWord);
+        if (game.currentWord) {
+          expect(['cat', 'dog']).toContain(game.currentWord);
+        }
         expect(game.currentWordChain).toEqual([]);
         expect(game.score).toBe(0);
         expect(game.isGameOver).toBe(false);

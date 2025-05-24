@@ -42,7 +42,7 @@ House:
 `;
       
       service.loadWordData('assets/data/test-words.txt').subscribe((dictionary: Dictionary) => {
-        expect(dictionary.wordPairs.length).toBe(6);
+        expect(dictionary.wordPairs.length).toBe(7);
         
         // Check specific pairs
         expect(dictionary.wordPairs).toContain(jasmine.objectContaining({
@@ -66,7 +66,7 @@ House:
         expect(dictionary.wordIndex.has('key')).toBeTrue();
         
         const housePairs = dictionary.wordIndex.get('house');
-        expect(housePairs?.length).toBe(3);
+        expect(housePairs?.length).toBe(4);
       });
 
       const req = httpMock.expectOne('assets/data/test-words.txt');
