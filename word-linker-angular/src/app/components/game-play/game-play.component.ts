@@ -38,10 +38,9 @@ export class GamePlayComponent implements OnInit, OnDestroy {
       this.availableWordPairs = this.gameService.getAvailableWordPairs();
       
       // Check for game over
-      if (game.isGameOver) {
-        setTimeout(() => {
-          alert(`Game Over! Your score: ${game.score}`);
-        }, 300);
+      if (game.isGameOver && this.availableWordPairs.length === 0) {
+        // End game if no more pairs are available
+        this.gameService.endGame();
       }
     });
   }

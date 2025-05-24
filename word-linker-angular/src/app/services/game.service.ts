@@ -49,6 +49,17 @@ export class GameService {
         currentGame.score += 50; // Bonus for completing the chain
       }
       
+      // Check if no more pairs are available
+      const availablePairs = this.dictionaryService.getWordPairsStartingWith(wordPair.secondWord);
+      if (availablePairs.length === 0 && !currentGame.isGameOver) {
+        // Dead end, but not at max chain length
+        currentGame.isGameOver = true;
+        if (currentGame.currentWordChain.length >= currentGame.maxChainLength * 0.7) {
+          // Partial bonus for getting at least 70% of the way through
+          currentGame.score += 20;
+        }
+      }
+      
       this.gameState.next({ ...currentGame });
       return true;
     }
@@ -59,7 +70,7 @@ export class GameService {
   getAvailableWordPairs(): WordPair[] {
     const currentGame = this.gameState.value;
     
-    if (!currentGame.currentWord) {
+    if (!currentGame.currentWord || currentGame.isGameOver) {
       return [];
     }
     
