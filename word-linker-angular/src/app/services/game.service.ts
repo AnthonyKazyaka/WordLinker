@@ -38,6 +38,18 @@ export class GameService {
     
     // Check if this is a valid next pair in the chain
     if (currentGame.currentWord && wordPair.firstWord === currentGame.currentWord.toLowerCase()) {
+      // Check if this phrase has been used before (either directly or in reverse)
+      const phraseAlreadyUsed = currentGame.currentWordChain.some(existingPair => 
+        (existingPair.firstWord.toLowerCase() === wordPair.firstWord.toLowerCase() && 
+         existingPair.secondWord.toLowerCase() === wordPair.secondWord.toLowerCase()) || 
+        (existingPair.firstWord.toLowerCase() === wordPair.secondWord.toLowerCase() && 
+         existingPair.secondWord.toLowerCase() === wordPair.firstWord.toLowerCase())
+      );
+      
+      if (phraseAlreadyUsed) {
+        return false; // Don't allow reusing phrases
+      }
+      
       // Valid next link
       currentGame.currentWordChain.push(wordPair);
       currentGame.currentWord = wordPair.secondWord;
