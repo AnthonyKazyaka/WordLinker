@@ -1,6 +1,23 @@
 # WordLinkerAngular
 
+WordLinker is a word chain game where players create a chain of word pairs by connecting phrases where the second word of each phrase becomes the first word of the next phrase.
+
+For example:
+- Dog **House**
+- **House** Key
+- Key **Chain**
+- **Chain** Link
+
+The goal is to create as long a chain as possible, with bonuses for completing the full chain!
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.13.
+
+## Game Features
+
+- Extensive dictionary of word pairs to create chains
+- Visually appealing interface with animated feedback
+- Score tracking with bonuses for completing chains
+- Play from beginning to end with proper game-over detection
 
 ## Development server
 
