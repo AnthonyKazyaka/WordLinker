@@ -50,7 +50,9 @@ jobs:
 
       - name: Install dependencies
         working-directory: ./word-linker-angular
-        run: npm ci
+        run: |
+          npm ci
+          npm install -g @angular/cli
 
       - name: Build with branch-specific base href
         working-directory: ./word-linker-angular
