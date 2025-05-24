@@ -2,6 +2,10 @@
 
 WordLinker is a word puzzle game where you create chains of word pairs, with the second word of each pair becoming the first word of the next pair.
 
+## Word Dictionary
+
+The game includes an extensive dictionary of word pairs organized into categories, with over 1,500 unique word combinations. The dictionary is continuously expanding with new and related words.
+
 ## Angular Web Version
 
 This repository contains the Angular web version of WordLinker, a migration from the original .NET Framework WPF application.
