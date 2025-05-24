@@ -54,7 +54,7 @@ jobs:
 
       - name: Build with branch-specific base href
         working-directory: ./word-linker-angular
-        run: ng build --configuration=production --base-href="${{ env.BASE_HREF }}"
+        run: npm run build:branch-ci -- --base-href="${{ env.BASE_HREF }}"
 
       - name: Deploy to GitHub Pages subdirectory
         uses: peaceiris/actions-gh-pages@v3

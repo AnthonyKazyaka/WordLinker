@@ -11,6 +11,7 @@
     "build:gh-pages": "ng build --configuration=github-pages",
     "deploy:gh-pages": "npm run build:gh-pages",
     "build:branch": "node scripts/build-branch.js",
+    "build:branch-ci": "ng build --configuration=production",
     "test-build": "npm run build && npx http-server dist/word-linker-angular/browser -p 8080 -o"
   },
   "private": true,
