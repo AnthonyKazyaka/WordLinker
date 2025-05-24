@@ -127,30 +127,30 @@ describe('GameService', () => {
       });
     });
     
-    it('should reject a word pair that has been used before in reverse order', () => {
+    it('should allow a word pair in the same order as the reverse of a previous pair', () => {
       const startWord = 'ball';
-      const validPair: WordPair = { firstWord: 'ball', secondWord: 'game' };
+      const validPair1: WordPair = { firstWord: 'ball', secondWord: 'game' };
       
       gameService.startNewGame(startWord);
       
-      // Add the pair once
-      const firstResult = gameService.addWordToChain(validPair);
+      // Add the first pair
+      const firstResult = gameService.addWordToChain(validPair1);
       expect(firstResult).toBe(true);
       
-      // Add another pair to continue the chain
-      const nextPair: WordPair = { firstWord: 'game', secondWord: 'ball' };
-      gameService.addWordToChain(nextPair);
+      // Add another pair to continue the chain that goes back to ball
+      const reversePair: WordPair = { firstWord: 'game', secondWord: 'ball' };
+      const secondResult = gameService.addWordToChain(reversePair);
+      expect(secondResult).toBe(true);
       
-      // Try to add the first pair again
-      const mockGameState = (gameService as any).gameState.value;
-      mockGameState.currentWord = 'ball';
-      (gameService as any).gameState.next({...mockGameState});
+      // Try to add a different pair with ball as first word (not a direct reuse)
+      const differentPair: WordPair = { firstWord: 'ball', secondWord: 'player' };
+      const repeatResult = gameService.addWordToChain(differentPair);
       
-      const repeatResult = gameService.addWordToChain(validPair);
-      expect(repeatResult).toBe(false);
+      expect(repeatResult).toBe(true); // This should be allowed
       
       gameService.getGameState().subscribe(game => {
-        expect(game.currentWordChain.length).toBe(2); // Still only has the original two pairs
+        expect(game.currentWordChain.length).toBe(3); // Now has three pairs
+        expect(game.currentWord).toBe('player');
       });
     });
 

@@ -38,16 +38,14 @@ export class GameService {
     
     // Check if this is a valid next pair in the chain
     if (currentGame.currentWord && wordPair.firstWord === currentGame.currentWord.toLowerCase()) {
-      // Check if this phrase has been used before (either directly or in reverse)
+      // Check if this exact phrase has been used before
       const phraseAlreadyUsed = currentGame.currentWordChain.some(existingPair => 
-        (existingPair.firstWord.toLowerCase() === wordPair.firstWord.toLowerCase() && 
-         existingPair.secondWord.toLowerCase() === wordPair.secondWord.toLowerCase()) || 
-        (existingPair.firstWord.toLowerCase() === wordPair.secondWord.toLowerCase() && 
-         existingPair.secondWord.toLowerCase() === wordPair.firstWord.toLowerCase())
+        existingPair.firstWord.toLowerCase() === wordPair.firstWord.toLowerCase() && 
+        existingPair.secondWord.toLowerCase() === wordPair.secondWord.toLowerCase()
       );
       
       if (phraseAlreadyUsed) {
-        return false; // Don't allow reusing phrases
+        return false; // Don't allow reusing the exact same phrase
       }
       
       // Valid next link
