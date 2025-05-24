@@ -11,9 +11,14 @@ on:
         description: 'Base href for the deployment (leave empty to use auto-generated)'
         required: false
         default: ''
+      pr_number:
+        description: 'PR number to update description (leave empty to auto-detect)'
+        required: false
+        default: ''
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   build-and-deploy:
@@ -65,3 +70,51 @@ jobs:
           publish_dir: ./word-linker-angular/dist/word-linker-angular/browser
           destination_dir: branches/${{ env.SAFE_BRANCH_NAME }}
           keep_files: true
+          
+      - name: Find associated PR
+        id: find-pr
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" && "${{ github.event.inputs.pr_number }}" != "" ]]; then
+            echo "PR_NUMBER=${{ github.event.inputs.pr_number }}" >> $GITHUB_ENV
+            echo "has_pr=true" >> $GITHUB_OUTPUT
+          else
+            PR_NUMBER=$(gh pr list --head ${{ github.ref_name }} --state open --json number --jq '.[0].number')
+            echo "Found PR: $PR_NUMBER"
+            echo "PR_NUMBER=$PR_NUMBER" >> $GITHUB_ENV
+            if [ -n "$PR_NUMBER" ]; then
+              echo "has_pr=true" >> $GITHUB_OUTPUT
+            else
+              echo "has_pr=false" >> $GITHUB_OUTPUT
+            fi
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Update PR description with branch URL
+        if: steps.find-pr.outputs.has_pr == 'true'
+        run: |
+          # Get current PR description
+          PR_INFO=$(gh pr view ${{ env.PR_NUMBER }} --json body)
+          PR_BODY=$(echo "$PR_INFO" | jq -r '.body')
+          
+          # Create feature branch URL
+          BRANCH_URL="https://anthonykazyaka.github.io/WordLinker/branches/${{ env.SAFE_BRANCH_NAME }}/"
+          
+          # Check if URL is already in the description
+          if [[ "$PR_BODY" != *"$BRANCH_URL"* ]]; then
+            # Append the URL to the PR description
+            UPDATED_BODY="${PR_BODY}
+
+### Preview Deployment
+
+You can preview this branch at: [${BRANCH_URL}](${BRANCH_URL})"
+            
+            # Update the PR description
+            gh pr edit ${{ env.PR_NUMBER }} --body "$UPDATED_BODY"
+            echo "Updated PR description with branch URL"
+          else
+            echo "Branch URL already exists in PR description"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
