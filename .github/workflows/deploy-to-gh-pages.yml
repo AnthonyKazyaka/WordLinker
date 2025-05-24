@@ -5,6 +5,9 @@ on:
     branches:
       - main  # Change this to your main branch name if different
 
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -27,8 +30,8 @@ jobs:
         run: npm run build -- --configuration=github-pages
 
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.5
+        uses: actions/deploy-pages@v4
         with:
-          branch: gh-pages  # The branch the action should deploy to
-          folder: ./word-linker-angular/dist/word-linker-angular  # The folder the action should deploy
+          token: ${{ secrets.GITHUB_TOKEN }}
+          folder: ./word-linker-angular/dist/word-linker-angular
           clean: true  # Automatically remove deleted files from the deployment branch
