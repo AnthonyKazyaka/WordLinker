@@ -100,6 +100,60 @@ describe('GameService', () => {
       });
     });
 
+    it('should reject a word pair that has been used before', () => {
+      const startWord = 'dog';
+      const validPair: WordPair = { firstWord: 'dog', secondWord: 'house' };
+      
+      gameService.startNewGame(startWord);
+      
+      // Add the pair once
+      const firstResult = gameService.addWordToChain(validPair);
+      expect(firstResult).toBe(true);
+      
+      // Add another pair to continue the chain
+      const nextPair: WordPair = { firstWord: 'house', secondWord: 'key' };
+      gameService.addWordToChain(nextPair);
+      
+      // Try to add the first pair again (after going back to 'dog')
+      const mockGameState = (gameService as any).gameState.value;
+      mockGameState.currentWord = 'dog';
+      (gameService as any).gameState.next({...mockGameState});
+      
+      const repeatResult = gameService.addWordToChain(validPair);
+      expect(repeatResult).toBe(false);
+      
+      gameService.getGameState().subscribe(game => {
+        expect(game.currentWordChain.length).toBe(2); // Still only has the original two pairs
+      });
+    });
+    
+    it('should allow a word pair in the same order as the reverse of a previous pair', () => {
+      const startWord = 'ball';
+      const validPair1: WordPair = { firstWord: 'ball', secondWord: 'game' };
+      
+      gameService.startNewGame(startWord);
+      
+      // Add the first pair
+      const firstResult = gameService.addWordToChain(validPair1);
+      expect(firstResult).toBe(true);
+      
+      // Add another pair to continue the chain that goes back to ball
+      const reversePair: WordPair = { firstWord: 'game', secondWord: 'ball' };
+      const secondResult = gameService.addWordToChain(reversePair);
+      expect(secondResult).toBe(true);
+      
+      // Try to add a different pair with ball as first word (not a direct reuse)
+      const differentPair: WordPair = { firstWord: 'ball', secondWord: 'player' };
+      const repeatResult = gameService.addWordToChain(differentPair);
+      
+      expect(repeatResult).toBe(true); // This should be allowed
+      
+      gameService.getGameState().subscribe(game => {
+        expect(game.currentWordChain.length).toBe(3); // Now has three pairs
+        expect(game.currentWord).toBe('player');
+      });
+    });
+
     it('should end the game when max chain length is reached', () => {
       const startWord = 'house';
       const validPair: WordPair = { firstWord: 'house', secondWord: 'key' };
