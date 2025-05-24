@@ -36,6 +36,20 @@ ng build
 
 This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
+## GitHub Pages Deployment
+
+This project is configured for deployment to GitHub Pages. To build the application for GitHub Pages:
+
+```bash
+npm run build:gh-pages
+```
+
+The project can be deployed to GitHub Pages in two ways:
+
+1. **Automated Deployment**: Push to the main branch and the GitHub Actions workflow will automatically build and deploy the application.
+
+2. **Manual Deployment**: Build the project using the command above and then use the GitHub Pages settings in the repository to deploy from the `/docs` folder or the `gh-pages` branch.
+
 ## Running unit tests
 
 To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
