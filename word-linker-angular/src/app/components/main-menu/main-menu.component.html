@@ -3,11 +3,22 @@
   
   <div class="menu-content">
     <div class="description">
+      <h2>How to Play</h2>
       <p>
         Create a chain of word pairs where the second word of each phrase becomes the first word of the next phrase.
       </p>
       <p>
-        Example: Dog <strong>House</strong> → <strong>House</strong> Key → Key <strong>Chain</strong> → <strong>Chain</strong> Link
+        Example Chain:
+      </p>
+      <ol class="example-chain">
+        <li>Dog <strong>House</strong></li>
+        <li><strong>House</strong> Key</li>
+        <li>Key <strong>Chain</strong></li>
+        <li><strong>Chain</strong> Link</li>
+        <li>Link <strong>Fence</strong></li>
+      </ol>
+      <p>
+        Keep building your chain to earn points. Complete the entire chain for a bonus!
       </p>
     </div>
     
@@ -21,7 +32,8 @@
     </div>
     
     <div *ngIf="!dictionaryLoaded" class="loading">
-      Loading word dictionary...
+      <div class="spinner"></div>
+      <p>Loading word dictionary...</p>
     </div>
   </div>
 </div>
