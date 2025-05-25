@@ -83,6 +83,40 @@ House:
       const req = httpMock.expectOne('assets/data/empty.txt');
       req.flush('');
     });
+    
+    it('should parse words with number prefixes correctly', () => {
+      const mockData = `
+1234.Water:
+  -bottle,
+  -glass,
+2345.House:
+  -key,
+  -boat,
+`;
+      
+      service.loadWordData('assets/data/numbered-words.txt').subscribe((dictionary: Dictionary) => {
+        // Check that word pairs don't include the number prefix
+        expect(dictionary.wordPairs).toContain(jasmine.objectContaining({
+          firstWord: 'water', // Not '1234.water'
+          secondWord: 'bottle'
+        }));
+        
+        expect(dictionary.wordPairs).toContain(jasmine.objectContaining({
+          firstWord: 'house', // Not '2345.house'
+          secondWord: 'key'
+        }));
+        
+        // Check that the word index is built correctly without number prefixes
+        expect(dictionary.wordIndex.has('water')).toBeTrue();
+        expect(dictionary.wordIndex.has('house')).toBeTrue();
+        expect(dictionary.wordIndex.has('1234.water')).toBeFalse();
+        expect(dictionary.wordIndex.has('2345.house')).toBeFalse();
+      });
+
+      const req = httpMock.expectOne('assets/data/numbered-words.txt');
+      expect(req.request.method).toBe('GET');
+      req.flush(mockData);
+    });
   });
 
   describe('getWordPairsStartingWith', () => {
