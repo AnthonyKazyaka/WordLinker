@@ -1,0 +1,9516 @@
+1.Abandoned:
+	-building,
+
+2.Ability:
+	-score,
+
+3.Absent:
+	-parent,
+
+4.Abstract:
+	-art,
+
+5.Academy:
+	-award,
+
+6.Accent:
+	-color,
+
+7.Account:
+	bank-,
+	eyewitness-,
+	investment-,
+	joint-,
+	payee-,
+	retirement-,
+	savings-,
+	seller-,
+	user-,
+	verified-,
+	-balance,
+	-manager,
+
+8.Accuracy:
+	-rate,
+
+9.Acid:
+	-rain,
+
+10.Action:
+	legal-,
+	pump-,
+	-figure,
+	-item,
+	-movie,
+
+11.Active:
+	-ingredient,
+
+12.Activity:
+	-center,
+
+13.Actor:
+	child-,
+	stage-,
+	understudy-,
+	voice-,
+	-profile,
+
+14.Actress:
+	-role,
+
+15.Adaptation:
+	-period,
+
+16.Adapter:
+	-plug,
+
+17.Admission:
+	-fee,
+
+18.Adrenaline:
+	-rush,
+
+19.Adult:
+	young-,
+
+20.Advertising:
+	-agency,
+
+21.Aerospace:
+	-engineer,
+
+22.Affinity:
+	-group,
+
+23.After:
+	-party,
+
+24.Afternoon:
+	-tea,
+
+25.Age:
+	-group,
+
+26.Agenda:
+	-item,
+
+27.Agility:
+	-drill,
+
+28.Agricultural:
+	-land,
+
+29.Aid:
+	-worker,
+
+30.Air:
+	-bag,
+	-base,
+	-compressor,
+	-conditioner,
+	-filter,
+	-fryer,
+	-pocket,
+	-pollution,
+	-pressure,
+	-pump,
+	-quality,
+	-support,
+	-ticket,
+	-traffic,
+	-vent,
+
+31.Aircraft:
+	-carrier,
+
+32.Airport:
+	-lounge,
+
+33.Alarm:
+	-clock,
+
+34.Album:
+	photo-,
+	stamp-,
+
+35.Alcohol:
+	-content,
+
+36.Alert:
+	-level,
+
+37.Algae:
+	-bloom,
+
+38.Alien:
+	-spacecraft,
+	-species,
+
+39.Allergy:
+	-medication,
+
+40.Alley:
+	bowling-,
+
+41.Alliance:
+	-member,
+
+42.Allocation:
+	-plan,
+
+43.Alpha:
+	-male,
+
+44.Alphabet:
+	-chart,
+
+45.Altar:
+	-cloth,
+
+46.Alternate:
+	-route,
+
+47.Aluminum:
+	-foil,
+
+48.Amateur:
+	-athlete,
+	-photographer,
+
+49.Amber:
+	-alert,
+
+50.Ambulance:
+	-driver,
+
+51.Amendment:
+	-bill,
+
+52.Ammonia:
+	-solution,
+
+53.Amusement:
+	-park,
+
+54.Anchor:
+	-point,
+
+55.Angel:
+	-investor,
+	-wing,
+
+56.Angle:
+	-bracket,
+
+57.Animal:
+	farm-,
+	marine-,
+	spirit-,
+	stuffed-,
+	wild-,
+	zoo-,
+	-control,
+	-crossing,
+	-shelter,
+
+58.Annual:
+	-event,
+	-fee,
+	-report,
+
+59.Ant:
+	-colony,
+	-farm,
+
+60.Antique:
+	-shop,
+
+61.Anxiety:
+	-attack,
+
+62.Apartment:
+	-building,
+	-complex,
+
+63.Apology:
+	-letter,
+
+64.App:
+	dating-,
+	helper-,
+	mobile-,
+	planner-,
+	translation-,
+	weather-,
+	-store,
+	-update,
+
+65.Appeal:
+	-process,
+
+66.Apple:
+	-orchard,
+	-pie,
+
+67.Application:
+	-form,
+
+68.Appointment:
+	-letter,
+
+69.Approval:
+	-rating,
+
+70.Apron:
+	-pocket,
+
+71.Aquarium:
+	-tank,
+
+72.Arcade:
+	-cabinet,
+
+73.Arch:
+	-bridge,
+	-enemy,
+	-support,
+
+74.Argument:
+	-structure,
+
+75.Arithmetic:
+	-mean,
+
+76.Arm:
+	-injury,
+	-rest,
+
+77.Army:
+	-camp,
+
+78.Art:
+	-collection,
+	-exhibit,
+	-gallery,
+	-project,
+	-supply,
+
+79.Artist:
+	-bio,
+	-profile,
+
+80.Artwork:
+	-submission,
+
+81.Aspect:
+	-ratio,
+
+82.Aspirin:
+	-tablet,
+
+83.Assembly:
+	-hall,
+	-line,
+
+84.Assistant:
+	-manager,
+
+85.Athlete:
+	-profile,
+
+86.Athletic:
+	-club,
+	-event,
+
+87.Atlas:
+	-map,
+
+88.Atmospheric:
+	-pressure,
+
+89.Atom:
+	-model,
+
+90.Atomic:
+	-bomb,
+
+91.Attachment:
+	-point,
+
+92.Attempt:
+	-count,
+
+93.Attendance:
+	-record,
+
+94.Attention:
+	-span,
+
+95.Attorney:
+	-general,
+
+96.Audible:
+	-alarm,
+
+97.Audio:
+	-book,
+	-cable,
+	-file,
+	-input,
+	-output,
+
+98.Audit:
+	-report,
+
+99.Augmented:
+	-reality,
+
+100.Aunt:
+	-farm,
+
+101.Author:
+	-bio,
+	-profile,
+
+102.Auto:
+	-mechanic,
+	-repair,
+	-shop,
+
+103.Automatic:
+	-door,
+	-transmission,
+
+104.Autumn:
+	-leaf,
+	-leaves,
+
+105.Available:
+	-space,
+
+106.Average:
+	-cost,
+	-score,
+
+107.Aviation:
+	-fuel,
+	-industry,
+
+108.Award:
+	-ceremony,
+	-winner,
+
+109.Awareness:
+	-campaign,
+
+110.Baby:
+	-blanket,
+	-carrier,
+	-formula,
+	-monitor,
+	-shower,
+	-steps,
+
+111.Background:
+	-check,
+
+112.Backpack:
+	-strap,
+
+113.Backup:
+	-plan,
+
+114.Bacon:
+	-bits,
+
+115.Bad:
+	-habit,
+
+116.Badge:
+	-holder,
+
+117.Baggage:
+	-claim,
+
+118.Balance:
+	-beam,
+
+119.Balcony:
+	-view,
+
+120.Ball:
+	cannon-,
+	crystal-,
+	gum-,
+	jump-,
+	kick-,
+	stress-,
+	tennis-,
+	yarn-,
+	-game,
+	-gown,
+	-park,
+	-player,
+	-point,
+
+121.Ballad:
+	-singer,
+
+122.Ballerina:
+	-tutu,
+
+123.Ballet:
+	-dancer,
+
+124.Balloon:
+	-arch,
+
+125.Ballpark:
+	-figure,
+
+126.Ballpoint:
+	-pen,
+
+127.Band:
+	-leader,
+	-member,
+	-practice,
+
+128.Bandana:
+	-print,
+
+129.Bank:
+	-branch,
+	-manager,
+
+130.Banner:
+	-headline,
+
+131.Bar:
+	-graph,
+	-stool,
+
+132.Barbecue:
+	-grill,
+
+133.Barrel:
+	-roll,
+
+134.Base:
+	army-,
+	knowledge-,
+	statue-,
+	third-,
+	user-,
+	-camp,
+	-coat,
+	-layer,
+	-metal,
+	-station,
+	-value,
+
+135.Baseball:
+	-cap,
+	-glove,
+
+136.Basket:
+	laundry-,
+	waste-,
+	-case,
+	-weave,
+
+137.Basketball:
+	-court,
+	-hoop,
+	-team,
+
+138.Bath:
+	bubble-,
+	mud-,
+
+139.Battery:
+	low-,
+	-charger,
+	-life,
+
+140.Battle:
+	-axe,
+	-cry,
+	-ground,
+	-scar,
+
+141.Bay:
+	-leaf,
+
+142.Beach:
+	pebble-,
+	-ball,
+	-chair,
+	-house,
+	-towel,
+
+143.Bean:
+	-bag,
+
+144.Bear:
+	koala-,
+	-hug,
+	-market,
+
+145.Beast:
+	-mode,
+
+146.Beauty:
+	-contest,
+	-salon,
+
+147.Bed:
+	hospital-,
+	queen-,
+	single-,
+	sofa-,
+	tanning-,
+	truck-,
+	-bug,
+	-frame,
+	-rest,
+	-sheet,
+	-time,
+
+148.Beef:
+	-jerky,
+	-stew,
+
+149.Beer:
+	draft-,
+	-bottle,
+	-garden,
+	-mug,
+
+150.Beet:
+	-juice,
+	-salad,
+
+151.Behavior:
+	-pattern,
+
+152.Belief:
+	-system,
+
+153.Bell:
+	-pepper,
+	-tower,
+
+154.Belt:
+	-buckle,
+
+155.Bench:
+	-press,
+
+156.Benefit:
+	-plan,
+
+157.Berry:
+	-patch,
+
+158.Best:
+	-friend,
+
+159.Beta:
+	-blocker,
+	-version,
+
+160.Bicycle:
+	-lane,
+	-rack,
+
+161.Bike:
+	pedal-,
+	quad-,
+	racing-,
+	-helmet,
+	-lock,
+
+162.Bill:
+	-payment,
+
+163.Billing:
+	-address,
+	-cycle,
+
+164.Binding:
+	-agent,
+
+165.Biology:
+	-lab,
+
+166.Bird:
+	early-,
+	humming-,
+
+167.Birthday:
+	-cake,
+	-card,
+	-gift,
+	-party,
+	-wish,
+
+168.Black:
+	pitch-,
+	-box,
+	-cat,
+	-coffee,
+	-hole,
+	-market,
+	-pepper,
+	-sheep,
+
+169.Blackboard:
+	-marker,
+
+170.Blank:
+	-page,
+	-space,
+
+171.Blanket:
+	-statement,
+
+172.Blender:
+	-jar,
+
+173.Blessing:
+	-ceremony,
+
+174.Blind:
+	-date,
+	-spot,
+
+175.Blister:
+	-pack,
+
+176.Block:
+	-party,
+	-print,
+
+177.Blood:
+	-bank,
+	-donor,
+	-pressure,
+
+178.Blue:
+	sky-,
+
+179.Blueberry:
+	-muffin,
+
+180.Blueprint:
+	-drawing,
+
+181.Board:
+	advisory-,
+	chalk-,
+	circuit-,
+	cutting-,
+	diving-,
+	drawing-,
+	editorial-,
+	hover-,
+	idea-,
+	inspiration-,
+	job-,
+	leader-,
+	message-,
+	mood-,
+	mother-,
+	notice-,
+	panel-,
+	poster-,
+	reader-,
+	review-,
+	score-,
+	switch-,
+	vision-,
+	zoning-,
+	-game,
+
+182.Boat:
+	fishing-,
+	gravy-,
+	rescue-,
+	tug-,
+	-launch,
+
+183.Body:
+	-armor,
+	-heat,
+	-language,
+	-lotion,
+	-part,
+	-wash,
+
+184.Boiling:
+	-point,
+
+185.Bold:
+	-statement,
+
+186.Bolt:
+	-cutter,
+
+187.Bomb:
+	-threat,
+
+188.Bond:
+	-issue,
+
+189.Bonus:
+	-round,
+
+190.Book:
+	activity-,
+	appointment-,
+	autograph-,
+	favorite-,
+	joke-,
+	law-,
+	look-,
+	nonfiction-,
+	order-,
+	phrase-,
+	picture-,
+	pocket-,
+	prayer-,
+	receipt-,
+	reference-,
+	riddle-,
+	rule-,
+	song-,
+	story-,
+	travel-,
+	-bag,
+	-club,
+	-cover,
+	-fair,
+	-report,
+	-shelf,
+	-store,
+
+191.Bookmark:
+	-folder,
+	-tab,
+
+192.Border:
+	-crossing,
+	-town,
+
+193.Bottle:
+	-cap,
+	-opener,
+
+194.Bottom:
+	-drawer,
+	-feeder,
+	-line,
+
+195.Boundary:
+	-layer,
+
+196.Bouquet:
+	-toss,
+
+197.Bow:
+	-tie,
+
+198.Box:
+	cigar-,
+	dialog-,
+	drop-,
+	jewelry-,
+	juice-,
+	junction-,
+	jury-,
+	liter-,
+	lock-,
+	lunch-,
+	meter-,
+	money-,
+	moving-,
+	mystery-,
+	penalty-,
+	press-,
+	puzzle-,
+	shadow-,
+	shoe-,
+	suggestion-,
+	tackle-,
+	tool-,
+	-cutter,
+	-office,
+	-spring,
+
+199.Boy:
+	-band,
+
+200.Bracelet:
+	-charm,
+
+201.Branch:
+	-manager,
+
+202.Brand:
+	name-,
+	premium-,
+	quality-,
+	-loyalty,
+
+203.Brass:
+	-band,
+	-knuckles,
+
+204.Bravery:
+	-award,
+
+205.Bread:
+	sandwich-,
+	stale-,
+	-basket,
+	-crumbs,
+
+206.Breakfast:
+	-cereal,
+
+207.Breakup:
+	-line,
+
+208.Brick:
+	-wall,
+
+209.Bridal:
+	-party,
+
+210.Bride:
+	-price,
+
+211.Bridge:
+	-deck,
+	-loan,
+
+212.Brief:
+	-moment,
+
+213.Bright:
+	-idea,
+
+214.Brisk:
+	-walk,
+
+215.Broad:
+	-daylight,
+
+216.Broadcast:
+	-signal,
+
+217.Broken:
+	-bone,
+
+218.Broker:
+	-fee,
+
+219.Bronze:
+	-medal,
+
+220.Brother:
+	-bond,
+
+221.Brotherhood:
+	-bond,
+
+222.Brown:
+	-bag,
+
+223.Bubble:
+	-wrap,
+
+224.Budget:
+	-airline,
+	-cut,
+	-plan,
+
+225.Buffalo:
+	-wing,
+
+226.Building:
+	-permit,
+
+227.Bulldog:
+	-breed,
+
+228.Bullet:
+	-journal,
+
+229.Bungee:
+	-cord,
+
+230.Burger:
+	-joint,
+
+231.Burn:
+	-rate,
+
+232.Burnout:
+	-rate,
+
+233.Bus:
+	-driver,
+	-lane,
+	-pass,
+	-route,
+	-station,
+
+234.Business:
+	-deal,
+	-model,
+	-owner,
+	-plan,
+	-trip,
+
+235.Butter:
+	-churn,
+	-knife,
+	-sauce,
+
+236.Butterfly:
+	-effect,
+
+237.Button:
+	-press,
+
+238.Buyer:
+	-agent,
+
+239.Cabin:
+	-fever,
+
+240.Cable:
+	link-,
+	network-,
+	printer-,
+	ribbon-,
+	-car,
+
+241.Cake:
+	-batter,
+
+242.Calendar:
+	event-,
+	outlook-,
+	-year,
+
+243.Call:
+	close-,
+	incoming-,
+	judgment-,
+	local-,
+	margin-,
+	mating-,
+	method-,
+	referee-,
+	roll-,
+	tough-,
+	umpire-,
+	voice-,
+	zoom-,
+
+244.Camera:
+	-lens,
+
+245.Camp:
+	-ground,
+	-site,
+
+246.Campaign:
+	-promise,
+
+247.Campus:
+	college-,
+	university-,
+
+248.Can:
+	-opener,
+
+249.Candy:
+	-cane,
+
+250.Canoe:
+	-trip,
+
+251.Canvas:
+	-bag,
+
+252.Cap:
+	-sleeve,
+
+253.Capital:
+	-gain,
+
+254.Car:
+	economy-,
+	electric-,
+	freight-,
+	hybrid-,
+	luxury-,
+	patrol-,
+	rally-,
+	rental-,
+	stock-,
+	subway-,
+	train-,
+	vintage-,
+	-alarm,
+	-battery,
+	-chase,
+	-dealer,
+	-engine,
+	-insurance,
+	-pool,
+	-seat,
+	-wash,
+
+255.Carbon:
+	-copy,
+
+256.Card:
+	baseball-,
+	business-,
+	charge-,
+	credit-,
+	debit-,
+	gift-,
+	holiday-,
+	library-,
+	membership-,
+	memory-,
+	network-,
+	place-,
+	prepaid-,
+	punch-,
+	report-,
+	score-,
+	title-,
+	trading-,
+	transit-,
+	wild-,
+	yellow-,
+	-game,
+
+257.Career:
+	-path,
+
+258.Cargo:
+	-ship,
+
+259.Carpet:
+	-cleaner,
+
+260.Carpool:
+	-lane,
+
+261.Carrot:
+	-cake,
+
+262.Cartoon:
+	-character,
+
+263.Cash:
+	-drawer,
+	-flow,
+	-machine,
+	-register,
+
+264.Castle:
+	-gate,
+
+265.Cat:
+	wild-,
+	-nap,
+
+266.Caterpillar:
+	-track,
+
+267.Cause:
+	-effect,
+
+268.Caution:
+	-sign,
+
+269.Caveman:
+	-diet,
+
+270.Ceiling:
+	debt-,
+	drop-,
+	-fan,
+
+271.Celebrity:
+	-chef,
+
+272.Cell:
+	fuel-,
+	nerve-,
+	stem-,
+	-phone,
+
+273.Cement:
+	-mixer,
+
+274.Center:
+	-field,
+
+275.Centerpiece:
+	-bowl,
+
+276.Ceramic:
+	-plate,
+
+277.Certificate:
+	-program,
+
+278.Chain:
+	email-,
+	link-,
+	supermarket-,
+	supply-,
+	value-,
+
+279.Chair:
+	-lift,
+
+280.Chance:
+	-encounter,
+
+281.Change:
+	-purse,
+
+282.Channel:
+	-marker,
+
+283.Chaos:
+	-theory,
+
+284.Character:
+	-arc,
+
+285.Charity:
+	-drive,
+
+286.Charm:
+	-bracelet,
+
+287.Chart:
+	-topper,
+
+288.Chase:
+	-scene,
+
+289.Check:
+	-list,
+	-point,
+
+290.Cheese:
+	melted-,
+	-board,
+	-pizza,
+
+291.Chemical:
+	-reaction,
+
+292.Chess:
+	-match,
+
+293.Chicken:
+	-coop,
+	-wing,
+
+294.Chief:
+	-editor,
+
+295.Chili:
+	-pepper,
+
+296.Chimney:
+	-sweep,
+
+297.Chocolate:
+	-chip,
+
+298.Choice:
+	-award,
+
+299.Choral:
+	-group,
+
+300.Chore:
+	-chart,
+
+301.Chorus:
+	-line,
+
+302.Chosen:
+	-one,
+
+303.Chrome:
+	-finish,
+
+304.Church:
+	-choir,
+
+305.Circle:
+	-graph,
+
+306.City:
+	host-,
+	hub-,
+	sister-,
+	-park,
+	-skyline,
+
+307.Civil:
+	-case,
+
+308.Class:
+	art-,
+	asset-,
+	beginner-,
+	biology-,
+	business-,
+	cooking-,
+	english-,
+	evening-,
+	gym-,
+	history-,
+	junior-,
+	karate-,
+	kindergarten-,
+	language-,
+	literature-,
+	math-,
+	online-,
+	philosophy-,
+	photography-,
+	physics-,
+	psychology-,
+	science-,
+	senior-,
+	spanish-,
+	spin-,
+	summer-,
+	swimming-,
+	trainer-,
+	training-,
+	weight-,
+	worker-,
+	zoology-,
+	-action,
+	-reunion,
+
+309.Classroom:
+	-desk,
+
+310.Clean:
+	-slate,
+
+311.Cleaning:
+	-agent,
+
+312.Clear:
+	-view,
+
+313.Climate:
+	-change,
+
+314.Clinic:
+	-visit,
+
+315.Clock:
+	-tower,
+
+316.Closet:
+	bedroom-,
+	hall-,
+	supply-,
+	walk-in-,
+	wardrobe-,
+	-door,
+
+317.Cloud:
+	-cover,
+
+318.Club:
+	country-,
+	drama-,
+	golf-,
+	jazz-,
+	sailing-,
+	teen-,
+	warehouse-,
+	yacht-,
+	-member,
+
+319.Coach:
+	assistant-,
+	life-,
+	track-,
+	vocal-,
+	-pitch,
+
+320.Coast:
+	-guard,
+
+321.Code:
+	access-,
+	area-,
+	bar-,
+	binary-,
+	confirm-,
+	diagnosis-,
+	discount-,
+	error-,
+	ethics-,
+	gate-,
+	genetic-,
+	hex-,
+	invite-,
+	item-,
+	moral-,
+	pass-,
+	pin-,
+	postal-,
+	procedure-,
+	product-,
+	promotion-,
+	reason-,
+	redeem-,
+	reject-,
+	scan-,
+	secret-,
+	security-,
+	serial-,
+	source-,
+	tax-,
+	uniform-,
+	unlock-,
+	voucher-,
+	warrior-,
+	zip-,
+	-review,
+
+322.Coffee:
+	strong-,
+	-mug,
+	-shop,
+
+323.Cold:
+	-case,
+	-front,
+
+324.Color:
+	-palette,
+
+325.Comfort:
+	-zone,
+
+326.Comic:
+	-book,
+
+327.Command:
+	-post,
+
+328.Comment:
+	-section,
+
+329.Common:
+	-goal,
+
+330.Community:
+	-event,
+
+331.Company:
+	-logo,
+
+332.Compass:
+	-rose,
+
+333.Computer:
+	desktop-,
+	notebook-,
+	quantum-,
+	tablet-,
+	-lab,
+	-mouse,
+
+334.Concert:
+	benefit-,
+	-hall,
+	-ticket,
+
+335.Condition:
+	-report,
+
+336.Congress:
+	-meeting,
+
+337.Connect:
+	-four,
+
+338.Conservation:
+	-area,
+
+339.Construction:
+	under-,
+
+340.Contact:
+	emergency-,
+	eye-,
+	-lens,
+
+341.Content:
+	-creator,
+
+342.Contest:
+	-winner,
+
+343.Context:
+	-clue,
+
+344.Contract:
+	employment-,
+	union-,
+	void-,
+
+345.Control:
+	-panel,
+
+346.Conversation:
+	-topic,
+
+347.Cookie:
+	-jar,
+
+348.Cool:
+	-breeze,
+
+349.Copy:
+	-editor,
+
+350.Coral:
+	-reef,
+
+351.Corporate:
+	-ladder,
+
+352.Couch:
+	-potato,
+
+353.Counter:
+	-offer,
+
+354.County:
+	-fair,
+
+355.Couple:
+	-goals,
+
+356.Course:
+	crash-,
+	golf-,
+	main-,
+	obstacle-,
+	online-,
+	training-,
+	-grade,
+
+357.Court:
+	-case,
+
+358.Cover:
+	-letter,
+
+359.Cow:
+	-pasture,
+
+360.Craft:
+	-fair,
+
+361.Cream:
+	moisturizer-,
+	rash-,
+	shaving-,
+	whip-,
+
+362.Crew:
+	-member,
+
+363.Crime:
+	-scene,
+
+364.Crisis:
+	-management,
+
+365.Critical:
+	-mass,
+
+366.Crop:
+	-circle,
+
+367.Cross:
+	-trainer,
+
+368.Crowd:
+	-source,
+
+369.Cruise:
+	pleasure-,
+	-ship,
+
+370.Cultural:
+	-event,
+
+371.Cup:
+	-holder,
+
+372.Cupcake:
+	-liner,
+
+373.Current:
+	-event,
+
+374.Curtain:
+	shower-,
+	-call,
+
+375.Custom:
+	-order,
+
+376.Customer:
+	-review,
+
+377.Cycle:
+	-lane,
+
+378.Dairy:
+	-farm,
+
+379.Dance:
+	folk-,
+	modern-,
+	tribal-,
+	victory-,
+	-floor,
+	-studio,
+
+380.Danger:
+	-zone,
+
+381.Data:
+	location-,
+	statistical-,
+	unlimited-,
+	unstructured-,
+	usage-,
+	-analysis,
+	-breach,
+	-center,
+	-entry,
+	-loss,
+	-point,
+	-set,
+
+382.Database:
+	-query,
+
+383.Dawn:
+	-patrol,
+
+384.Day:
+	independence-,
+	laundry-,
+	ordinary-,
+	republic-,
+	sunny-,
+	thirty-,
+	-care,
+	-dream,
+	-job,
+	-shift,
+	-trip,
+
+385.Deadline:
+	-pressure,
+
+386.Deal:
+	-breaker,
+
+387.Deck:
+	-chair,
+
+388.Deer:
+	-trail,
+
+389.Defense:
+	-attorney,
+	-lawyer,
+
+390.Degree:
+	engineering-,
+	postgraduate-,
+	university-,
+	-program,
+
+391.Delivery:
+	-address,
+	-driver,
+	-truck,
+
+392.Delta:
+	-wing,
+
+393.Dental:
+	-floss,
+	-plan,
+
+394.Dentist:
+	-appointment,
+
+395.Deposit:
+	-slip,
+
+396.Deputy:
+	-sheriff,
+
+397.Dessert:
+	-plate,
+
+398.Detail:
+	-view,
+
+399.Detailed:
+	-plan,
+
+400.Detective:
+	-novel,
+
+401.Device:
+	-manager,
+
+402.Dew:
+	-point,
+
+403.Diagram:
+	-label,
+
+404.Diamond:
+	-ring,
+
+405.Diet:
+	-plan,
+
+406.Digital:
+	-camera,
+	-clock,
+	-file,
+
+407.Dining:
+	-area,
+	-chair,
+	-hall,
+	-table,
+
+408.Dinner:
+	rehearsal-,
+	reunion-,
+
+409.Diploma:
+	-ceremony,
+
+410.Direct:
+	-deposit,
+
+411.Direction:
+	-arrow,
+
+412.Director:
+	-chair,
+
+413.Dirty:
+	-look,
+
+414.Dish:
+	-rack,
+
+415.Disk:
+	-drive,
+
+416.Display:
+	-case,
+
+417.Distance:
+	-learning,
+	-runner,
+
+418.District:
+	-judge,
+
+419.Doctor:
+	specialist-,
+	-appointment,
+	-office,
+	-visit,
+
+420.Dog:
+	guard-,
+	hunting-,
+	pointer-,
+	service-,
+	shelter-,
+	-house,
+	-park,
+	-show,
+	-treat,
+
+421.Dollar:
+	-amount,
+	-bill,
+	-sign,
+
+422.Domain:
+	-name,
+
+423.Donor:
+	-list,
+	-match,
+
+424.Door:
+	-bell,
+	-handle,
+	-knob,
+	-mat,
+
+425.Double:
+	-check,
+	-click,
+	-date,
+	-door,
+	-layer,
+
+426.Download:
+	-link,
+	-speed,
+
+427.Draft:
+	-pick,
+
+428.Drain:
+	-pipe,
+
+429.Draw:
+	-bridge,
+
+430.Drawing:
+	-pad,
+
+431.Dress:
+	casual-,
+	fancy-,
+	lace-,
+	princess-,
+	prom-,
+	slip-,
+	velvet-,
+	vintage-,
+	wedding-,
+	wrap-,
+	-code,
+
+432.Drill:
+	-bit,
+
+433.Drink:
+	-mix,
+
+434.Drive:
+	-belt,
+	-way,
+
+435.Driver:
+	-license,
+
+436.Drone:
+	-footage,
+
+437.Drum:
+	-line,
+	-stick,
+
+438.Dry:
+	-cleaner,
+	-erase,
+	-goods,
+	-run,
+
+439.Dual:
+	-monitor,
+
+440.Duck:
+	-pond,
+
+441.Dumbbell:
+	-set,
+
+442.Dump:
+	-truck,
+
+443.Dust:
+	-storm,
+
+444.Duty:
+	import-,
+	jury-,
+	-free,
+	-roster,
+
+445.Dwarf:
+	-planet,
+
+446.Dynamic:
+	-duo,
+
+447.Eager:
+	-beaver,
+
+448.Early:
+	-access,
+	-adopter,
+	-warning,
+
+449.Earnest:
+	-effort,
+
+450.Earning:
+	-potential,
+
+451.Earth:
+	-science,
+	-tone,
+
+452.Earthquake:
+	-drill,
+	-zone,
+
+453.Easel:
+	-stand,
+
+454.East:
+	-coast,
+
+455.Easy:
+	-chair,
+	-fix,
+	-target,
+
+456.Echo:
+	-chamber,
+
+457.Economic:
+	-growth,
+
+458.Ecosystem:
+	-service,
+
+459.Education:
+	-policy,
+	-reform,
+	-system,
+
+460.Effect:
+	-size,
+
+461.Egg:
+	-carton,
+	-roll,
+
+462.Elastic:
+	-band,
+
+463.Electric:
+	-blanket,
+	-charge,
+	-current,
+	-shock,
+	-vehicle,
+
+464.Electrical:
+	-outlet,
+	-storm,
+
+465.Electrolyte:
+	-drink,
+
+466.Elevator:
+	-pitch,
+
+467.Eligible:
+	-voter,
+
+468.Elite:
+	-athlete,
+
+469.Email:
+	-address,
+
+470.Emergency:
+	-brake,
+	-exit,
+	-kit,
+	-response,
+
+471.Emission:
+	-level,
+
+472.Emotion:
+	-regulation,
+
+473.Emotional:
+	-appeal,
+
+474.Employee:
+	-badge,
+	-handbook,
+	-morale,
+	-portal,
+
+475.Empty:
+	-chair,
+	-nest,
+
+476.End:
+	-goal,
+	-product,
+	-result,
+	-user,
+	-zone,
+
+477.Endangered:
+	-species,
+
+478.Endless:
+	-loop,
+
+479.Energy:
+	-bar,
+	-boost,
+	-drink,
+	-level,
+	-source,
+
+480.Engine:
+	-block,
+	-failure,
+	-part,
+	-speed,
+
+481.Enrollment:
+	-period,
+
+482.Entertainment:
+	-center,
+
+483.Entrance:
+	-fee,
+
+484.Entry:
+	-fee,
+	-level,
+
+485.Envelope:
+	-icon,
+
+486.Environment:
+	-agency,
+	-policy,
+
+487.Enzyme:
+	-activity,
+
+488.Equal:
+	-sign,
+
+489.Equipment:
+	-rental,
+
+490.Equity:
+	-stake,
+
+491.Error:
+	-message,
+
+492.Escape:
+	-hatch,
+	-pod,
+
+493.Estate:
+	-agent,
+	-plan,
+
+494.Estimate:
+	-form,
+
+495.Ethics:
+	-panel,
+
+496.Ethnic:
+	-group,
+
+497.Even:
+	-surface,
+
+498.Evening:
+	-gown,
+
+499.Event:
+	-planner,
+	-space,
+
+500.Evidence:
+	-bag,
+
+501.Evolution:
+	-theory,
+
+502.Exam:
+	entrance-,
+	eye-,
+	final-,
+	medical-,
+	midterm-,
+	oral-,
+	physical-,
+	semester-,
+	-paper,
+	-room,
+
+503.Examination:
+	-table,
+
+504.Example:
+	-sentence,
+
+505.Exchange:
+	-rate,
+
+506.Excise:
+	-tax,
+
+507.Exercise:
+	aerobic-,
+	-ball,
+	-bike,
+	-plan,
+
+508.Exit:
+	-ramp,
+	-strategy,
+
+509.Expectation:
+	-gap,
+
+510.Expense:
+	-report,
+
+511.Expert:
+	-advice,
+	-panel,
+
+512.Expiration:
+	-date,
+
+513.Explicit:
+	-content,
+
+514.Explosion:
+	-proof,
+
+515.Express:
+	-bus,
+	-delivery,
+	-train,
+
+516.Expression:
+	-error,
+
+517.Extension:
+	-cord,
+
+518.External:
+	-drive,
+	-link,
+	-source,
+
+519.Extra:
+	-credit,
+	-help,
+	-inning,
+
+520.Eye:
+	-drop,
+
+521.Eyewitness:
+	-report,
+
+522.Fabric:
+	-softener,
+
+523.Face:
+	-mask,
+
+524.Facial:
+	-hair,
+
+525.Factory:
+	-floor,
+
+526.Faculty:
+	-lounge,
+
+527.Failure:
+	-rate,
+
+528.Fair:
+	-trade,
+
+529.Fall:
+	-foliage,
+
+530.False:
+	-alarm,
+
+531.Family:
+	host-,
+	immediate-,
+	-doctor,
+	-member,
+	-reunion,
+	-tree,
+
+532.Famous:
+	-landmark,
+
+533.Fantasy:
+	-novel,
+
+534.Farm:
+	-stand,
+
+535.Fashion:
+	-trend,
+
+536.Fast:
+	-lane,
+	-track,
+
+537.Fault:
+	-line,
+
+538.Fax:
+	-machine,
+
+539.Feature:
+	-story,
+
+540.Feedback:
+	-form,
+
+541.Female:
+	-lead,
+
+542.Fence:
+	-post,
+
+543.Festival:
+	jazz-,
+	kite-,
+	-season,
+
+544.Fiction:
+	-novel,
+	-writer,
+
+545.Field:
+	-goal,
+	-trip,
+
+546.File:
+	document-,
+	expandable-,
+	extract-,
+	log-,
+	medical-,
+	output-,
+	personnel-,
+	project-,
+	source-,
+	system-,
+	upload-,
+	vector-,
+	zip-,
+	-cabinet,
+	-folder,
+
+547.Film:
+	feature-,
+	-crew,
+	-festival,
+	-industry,
+
+548.Final:
+	-answer,
+	-draft,
+	-round,
+
+549.Finance:
+	-charge,
+	-office,
+	-report,
+
+550.Financial:
+	-aid,
+	-goal,
+	-plan,
+
+551.Finders:
+	-fee,
+
+552.Finger:
+	-print,
+
+553.Finish:
+	-line,
+
+554.Fire:
+	brush-,
+	camp-,
+	rapid-,
+	-alarm,
+	-department,
+	-drill,
+	-engine,
+	-escape,
+	-extinguisher,
+	-hydrant,
+	-pit,
+	-station,
+	-truck,
+
+555.Firefighter:
+	-helmet,
+
+556.Fireplace:
+	-mantel,
+
+557.Firewood:
+	-pile,
+
+558.Fishing:
+	-rod,
+
+559.Fitness:
+	-app,
+	-center,
+	-class,
+
+560.Flag:
+	-pole,
+	-staff,
+
+561.Flash:
+	-card,
+	-drive,
+	-flood,
+	-light,
+
+562.Flight:
+	direct-,
+	domestic-,
+	southwest-,
+	-attendant,
+	-plan,
+
+563.Flip:
+	-chart,
+
+564.Float:
+	-plane,
+
+565.Floor:
+	-lamp,
+	-mat,
+	-plan,
+
+566.Floral:
+	-print,
+
+567.Flower:
+	wall-,
+	wild-,
+	-arrangement,
+	-bed,
+	-pot,
+
+568.Fluid:
+	-ounce,
+
+569.Flying:
+	-squirrel,
+
+570.Focus:
+	-group,
+
+571.Folk:
+	-tale,
+
+572.Food:
+	fast-,
+	health-,
+	spicy-,
+	starch-,
+	-court,
+	-processor,
+	-truck,
+
+573.Foot:
+	square-,
+	-path,
+
+574.Football:
+	arena-,
+	tackle-,
+	-field,
+	-game,
+
+575.Footnote:
+	-marker,
+
+576.Footprint:
+	-trail,
+
+577.Forest:
+	-fire,
+	-ranger,
+
+578.Formal:
+	-attire,
+	-event,
+
+579.Fortune:
+	-cookie,
+
+580.Forward:
+	-pass,
+
+581.Fossil:
+	-fuel,
+
+582.Fountain:
+	-pen,
+
+583.Fourth:
+	-quarter,
+
+584.Fox:
+	-hole,
+
+585.Frame:
+	-rate,
+
+586.Franchise:
+	-owner,
+
+587.Free:
+	-agent,
+	-sample,
+	-throw,
+
+588.Freezer:
+	-bag,
+
+589.Freight:
+	-train,
+
+590.Fresh:
+	-air,
+	-bread,
+	-fruit,
+
+591.Fridge:
+	-magnet,
+
+592.Friend:
+	-request,
+	-zone,
+
+593.Front:
+	-desk,
+	-door,
+
+594.Frost:
+	-line,
+
+595.Fruit:
+	-bowl,
+	-salad,
+
+596.Fuel:
+	-tank,
+
+597.Full:
+	-moon,
+	-name,
+	-price,
+
+598.Full-time:
+	-job,
+
+599.Fun:
+	-fact,
+	-run,
+
+600.Fund:
+	-raiser,
+
+601.Funding:
+	-source,
+
+602.Funny:
+	-bone,
+
+603.Fur:
+	-coat,
+
+604.Furniture:
+	-store,
+
+605.Future:
+	-plan,
+	-tense,
+
+606.Game:
+	adventure-,
+	arcade-,
+	bowl-,
+	championship-,
+	clue-,
+	fair-,
+	imagination-,
+	league-,
+	online-,
+	platform-,
+	playoff-,
+	pool-,
+	puzzle-,
+	shell-,
+	simulation-,
+	-board,
+	-night,
+	-piece,
+	-plan,
+
+607.Garage:
+	-door,
+	-sale,
+
+608.Garden:
+	backyard-,
+	rose-,
+	urban-,
+	vertical-,
+	-gnome,
+	-hose,
+	-tool,
+
+609.Gas:
+	-station,
+	-tank,
+
+610.Gate:
+	-keeper,
+
+611.Gathering:
+	-place,
+
+612.Gear:
+	protective-,
+	reverse-,
+	riding-,
+	scuba-,
+	switch-,
+	worm-,
+	-shift,
+
+613.Gem:
+	-stone,
+
+614.Gene:
+	-pool,
+
+615.General:
+	-manager,
+
+616.Geography:
+	-quiz,
+
+617.Giant:
+	-panda,
+
+618.Gift:
+	-shop,
+
+619.Girl:
+	-scout,
+
+620.Glass:
+	juice-,
+	plate-,
+	wine-,
+	-bottle,
+	-door,
+	-jar,
+	-window,
+
+621.Goal:
+	-post,
+	-scorer,
+
+622.Gold:
+	-medal,
+	-mine,
+
+623.Golf:
+	-cart,
+
+624.Good:
+	surplus-,
+	-deed,
+	-luck,
+	-neighbor,
+
+625.Goose:
+	-bump,
+
+626.Gourmet:
+	-chef,
+
+627.Grade:
+	-point,
+	-scale,
+
+628.Graduate:
+	-school,
+
+629.Grain:
+	-elevator,
+	-silo,
+
+630.Grand:
+	-piano,
+	-prize,
+	-total,
+
+631.Grandchild:
+	-care,
+
+632.Grandfather:
+	-clock,
+
+633.Grandmother:
+	-clock,
+
+634.Grape:
+	-juice,
+
+635.Graphic:
+	-novel,
+
+636.Grass:
+	-seed,
+
+637.Great:
+	-dane,
+
+638.Green:
+	leafy-,
+	village-,
+	-bean,
+	-card,
+	-energy,
+	-house,
+	-tea,
+
+639.Greenhouse:
+	-effect,
+
+640.Grocery:
+	-bag,
+	-list,
+
+641.Group:
+	-chat,
+	-project,
+
+642.Growth:
+	-chart,
+
+643.Guest:
+	mystery-,
+	overnight-,
+	party-,
+	wedding-,
+	-book,
+	-room,
+
+644.Guide:
+	field-,
+	handbook-,
+	how-to-,
+	parent-,
+	resource-,
+	spiritual-,
+	strategy-,
+	study-,
+	style-,
+	survival-,
+	tour-,
+	travel-,
+	user-,
+	-book,
+	-dog,
+
+645.Guitar:
+	-case,
+	-pick,
+
+646.Gun:
+	radar-,
+	ray-,
+
+647.Gym:
+	-bag,
+	-shoe,
+
+648.Habit:
+	-loop,
+
+649.Hair:
+	-brush,
+	-color,
+	-dryer,
+	-salon,
+	-style,
+
+650.Half:
+	-moon,
+
+651.Hall:
+	-monitor,
+	-pass,
+
+652.Hand:
+	deck-,
+	hired-,
+	hour-,
+	left-,
+	minute-,
+	raise-,
+	right-,
+	upper-,
+	-cream,
+	-gesture,
+	-lotion,
+	-sanitizer,
+	-shake,
+	-signal,
+	-towel,
+	-truck,
+
+653.Handbag:
+	-strap,
+
+654.Handheld:
+	-device,
+
+655.Handle:
+	-bar,
+	-grip,
+
+656.Hang:
+	-glider,
+	-tag,
+
+657.Hanging:
+	-sign,
+
+658.Happy:
+	-hour,
+
+659.Harbor:
+	-seal,
+
+660.Hard:
+	-drive,
+	-hat,
+
+661.Hardwood:
+	-floor,
+
+662.Harmonic:
+	-mean,
+
+663.Harvest:
+	-moon,
+	-season,
+
+664.Hatch:
+	-door,
+
+665.Hatchet:
+	-job,
+
+666.Hazard:
+	-sign,
+
+667.Head:
+	agency-,
+	sprinkler-,
+	-coach,
+	-cold,
+	-count,
+	-nurse,
+	-phone,
+	-rest,
+	-scarf,
+	-start,
+	-teacher,
+
+668.Headache:
+	-remedy,
+
+669.Headband:
+	-style,
+
+670.Health:
+	-care,
+	-clinic,
+	-insurance,
+	-policy,
+	-risk,
+	-system,
+
+671.Hearing:
+	-aid,
+	-loss,
+
+672.Heart:
+	-attack,
+	-beat,
+	-disease,
+	-rate,
+	-shape,
+
+673.Heat:
+	-lamp,
+	-wave,
+
+674.Heated:
+	-pool,
+
+675.Heating:
+	-pad,
+
+676.Heaven:
+	-scent,
+
+677.Heavy:
+	-cream,
+	-duty,
+	-rain,
+	-traffic,
+
+678.Hedge:
+	-fund,
+
+679.Height:
+	-limit,
+
+680.Heirloom:
+	-tomato,
+
+681.Helicopter:
+	-ride,
+
+682.Hello:
+	-world,
+
+683.Helmet:
+	-law,
+
+684.Help:
+	-desk,
+	-line,
+
+685.Hemisphere:
+	-map,
+
+686.Heritage:
+	-site,
+
+687.Hero:
+	-complex,
+	-status,
+
+688.Heron:
+	-rookery,
+
+689.Hesitation:
+	-pause,
+
+690.Hidden:
+	-agenda,
+	-gem,
+	-object,
+
+691.High:
+	junior-,
+	-achiever,
+	-alert,
+	-beam,
+	-chair,
+	-court,
+	-demand,
+	-fever,
+	-ground,
+	-jump,
+	-note,
+	-pitch,
+	-quality,
+	-school,
+	-score,
+	-speed,
+
+692.Highlight:
+	-reel,
+
+693.Hiking:
+	-boots,
+	-trail,
+
+694.Hill:
+	-climb,
+	-station,
+
+695.Hint:
+	-button,
+
+696.Hiring:
+	-manager,
+
+697.Historic:
+	-site,
+
+698.History:
+	-museum,
+
+699.Hobby:
+	-shop,
+
+700.Hockey:
+	-puck,
+	-rink,
+
+701.Hold:
+	-button,
+
+702.Holiday:
+	-party,
+	-sale,
+	-season,
+
+703.Home:
+	model-,
+	orphanage-,
+	shelter-,
+	suburban-,
+	take-,
+	vacation-,
+	voyage-,
+	welcome-,
+	-address,
+	-appliance,
+	-base,
+	-button,
+	-decor,
+	-field,
+	-gym,
+	-office,
+	-page,
+	-phone,
+	-plate,
+	-remedy,
+	-run,
+	-team,
+	-value,
+
+704.Honey:
+	-bee,
+	-bun,
+
+705.Honeycomb:
+	-cereal,
+
+706.Honor:
+	-roll,
+
+707.Hood:
+	-ornament,
+
+708.Hope:
+	-chest,
+
+709.Horse:
+	dark-,
+	wild-,
+	-barn,
+	-race,
+	-shoe,
+
+710.Hospital:
+	-bill,
+
+711.Host:
+	-nation,
+
+712.Hot:
+	-chocolate,
+	-coffee,
+	-dog,
+	-plate,
+	-sauce,
+	-spot,
+
+713.Hotel:
+	luxury-,
+	-lobby,
+	-room,
+
+714.House:
+	auction-,
+	brick-,
+	carriage-,
+	farm-,
+	lake-,
+	nut-,
+	old-,
+	open-,
+	pool-,
+	reptile-,
+	terrace-,
+	tiny-,
+	-cat,
+	-fly,
+	-guest,
+	-party,
+	-plant,
+	-rule,
+	-tour,
+	-wine,
+
+715.Household:
+	-chore,
+
+716.Housing:
+	-project,
+
+717.Hovercraft:
+	-ride,
+
+718.Human:
+	-error,
+	-nature,
+	-race,
+	-resource,
+
+719.Humble:
+	-abode,
+
+720.Humidity:
+	-level,
+
+721.Hunting:
+	-cabin,
+
+722.Hydrant:
+	-cap,
+
+723.Hydraulic:
+	-lift,
+
+724.Hygiene:
+	-kit,
+
+725.Hyper:
+	-link,
+
+726.Ice:
+	vanilla-,
+	-cube,
+	-pack,
+	-pick,
+	-rink,
+	-skater,
+	-tray,
+
+727.Icon:
+	-design,
+
+728.Idea:
+	-generator,
+	-journal,
+
+729.Ideal:
+	-weight,
+
+730.Identification:
+	-badge,
+
+731.Identity:
+	-theft,
+
+732.Idle:
+	-speed,
+
+733.Ignite:
+	-button,
+
+734.Illness:
+	-prevention,
+
+735.Image:
+	header-,
+	hero-,
+	mirror-,
+	satellite-,
+	sonogram-,
+	still-,
+	vivid-,
+	x-ray-,
+	-editor,
+	-file,
+	-gallery,
+	-quality,
+
+736.Immigration:
+	-policy,
+
+737.Immune:
+	-response,
+
+738.Immunity:
+	-boost,
+
+739.Impact:
+	-assessment,
+	-factor,
+	-zone,
+
+740.Impaired:
+	-driver,
+
+741.Import:
+	-fee,
+
+742.Important:
+	-date,
+
+743.Impression:
+	-artist,
+
+744.Imprint:
+	-logo,
+
+745.Inbox:
+	-folder,
+
+746.Incident:
+	-report,
+
+747.Income:
+	-tax,
+
+748.Incoming:
+	-mail,
+
+749.Index:
+	-finger,
+	-fund,
+
+750.Indoor:
+	-pool,
+
+751.Industry:
+	-leader,
+
+752.Infant:
+	-care,
+	-formula,
+
+753.Infection:
+	-rate,
+
+754.Inflation:
+	-rate,
+
+755.Information:
+	-desk,
+	-kiosk,
+	-packet,
+	-source,
+
+756.Infrared:
+	-sensor,
+
+757.Ingredient:
+	-list,
+
+758.Inheritance:
+	-tax,
+
+759.Initial:
+	-phase,
+
+760.Injury:
+	-report,
+
+761.Ink:
+	-cartridge,
+
+762.Inner:
+	-circle,
+
+763.Input:
+	-device,
+	-field,
+	-lag,
+	-port,
+
+764.Inquiry:
+	-form,
+
+765.Insert:
+	-mode,
+
+766.Inside:
+	-joke,
+	-pocket,
+
+767.Inspection:
+	-report,
+
+768.Installation:
+	-fee,
+
+769.Instance:
+	-method,
+
+770.Instant:
+	-message,
+	-noodles,
+
+771.Instruction:
+	-manual,
+
+772.Insurance:
+	-agent,
+	-claim,
+	-policy,
+
+773.Intake:
+	-form,
+
+774.Integral:
+	-part,
+
+775.Intelligence:
+	-agency,
+
+776.Intensive:
+	-care,
+
+777.Intention:
+	-span,
+
+778.Interactive:
+	-map,
+
+779.Interest:
+	-group,
+	-rate,
+
+780.Interior:
+	-design,
+	-door,
+
+781.Internet:
+	-access,
+	-cafe,
+	-connection,
+	-service,
+
+782.Interpreter:
+	-mode,
+
+783.Interstate:
+	-highway,
+
+784.Interview:
+	exit-,
+	job-,
+	-process,
+
+785.Intimate:
+	-partner,
+
+786.Inventory:
+	-list,
+
+787.Investment:
+	-firm,
+
+788.Iron:
+	-gate,
+	-lung,
+	-ore,
+
+789.Irrigation:
+	-system,
+
+790.Island:
+	-nation,
+
+791.Issue:
+	-date,
+
+792.Item:
+	-description,
+	-list,
+
+793.Iteration:
+	-count,
+
+794.Ivory:
+	-tower,
+
+795.Jack:
+	-handle,
+	-knife,
+
+796.Jacket:
+	-pocket,
+
+797.Jaguar:
+	-print,
+
+798.Jail:
+	-cell,
+
+799.Jam:
+	-session,
+
+800.Jar:
+	-lid,
+
+801.Jazz:
+	-band,
+
+802.Jeans:
+	-pocket,
+
+803.Jeep:
+	-safari,
+
+804.Jelly:
+	-bean,
+	-jar,
+
+805.Job:
+	-application,
+	-candidate,
+	-fair,
+	-offer,
+	-posting,
+	-requirement,
+	-site,
+	-title,
+
+806.Jogging:
+	-path,
+	-track,
+
+807.Join:
+	-date,
+
+808.Joint:
+	-effort,
+
+809.Journal:
+	-article,
+	-entry,
+	-issue,
+	-page,
+
+810.Journalist:
+	-badge,
+
+811.Journey:
+	-plan,
+
+812.Judge:
+	-panel,
+
+813.Juice:
+	-bar,
+
+814.Jump:
+	-rope,
+
+815.Justice:
+	-court,
+	-system,
+
+816.Juvenile:
+	-court,
+	-detention,
+
+817.Kale:
+	-salad,
+
+818.Kangaroo:
+	-pouch,
+
+819.Kayak:
+	-trip,
+
+820.Kebab:
+	-skewer,
+
+821.Keen:
+	-sense,
+
+822.Ketchup:
+	-packet,
+
+823.Kettle:
+	-bell,
+	-corn,
+	-drum,
+
+824.Key:
+	answer-,
+	arrow-,
+	encryption-,
+	function-,
+	ignition-,
+	low-,
+	mailbox-,
+	piano-,
+	session-,
+	shift-,
+	solution-,
+	symbol-,
+	universal-,
+	xylophone-,
+	-card,
+	-code,
+	-component,
+	-feature,
+	-holder,
+	-note,
+	-point,
+	-role,
+	-term,
+	-value,
+
+825.Keyboard:
+	-shortcut,
+
+826.Keyhole:
+	-slot,
+
+827.Keystone:
+	-habit,
+
+828.Kick:
+	-drum,
+	-stand,
+
+829.Kickoff:
+	-event,
+
+830.Kid:
+	-zone,
+
+831.Kidney:
+	-bean,
+
+832.Kids:
+	-menu,
+
+833.Killer:
+	-whale,
+
+834.Kilogram:
+	-weight,
+
+835.Kilowatt:
+	-hour,
+
+836.Kind:
+	-gesture,
+
+837.King:
+	-bed,
+	-cobra,
+	-crab,
+	-size,
+
+838.Kingdom:
+	-come,
+
+839.Kitchen:
+	-apron,
+	-counter,
+	-drawer,
+	-island,
+	-knife,
+	-sink,
+
+840.Kite:
+	-string,
+
+841.Kitten:
+	-rescue,
+
+842.Knapsack:
+	-strap,
+
+843.Knee:
+	-brace,
+	-joint,
+	-pad,
+	-surgery,
+
+844.Knife:
+	-blade,
+	-block,
+
+845.Knit:
+	-hat,
+
+846.Knitting:
+	-needle,
+
+847.Knob:
+	-lock,
+
+848.Knock:
+	-sensor,
+
+849.Knot:
+	-hole,
+
+850.Knowledge:
+	-gap,
+
+851.Lab:
+	-coat,
+	-experiment,
+	-report,
+
+852.Label:
+	-maker,
+
+853.Labor:
+	-cost,
+	-force,
+	-law,
+
+854.Lack:
+	-mindset,
+
+855.Ladder:
+	-rung,
+
+856.Lady:
+	-bug,
+
+857.Lamb:
+	-chop,
+
+858.Lamp:
+	-shade,
+
+859.Land:
+	-bridge,
+	-grant,
+	-mark,
+	-mass,
+	-mine,
+	-owner,
+	-reform,
+	-rover,
+	-sale,
+	-use,
+	-value,
+
+860.Landlord:
+	-tenant,
+
+861.Landmark:
+	-case,
+
+862.Landscape:
+	-artist,
+
+863.Landslide:
+	-victory,
+
+864.Language:
+	-barrier,
+
+865.Laptop:
+	-bag,
+	-computer,
+
+866.Laser:
+	-beam,
+	-pointer,
+
+867.Last:
+	-name,
+	-resort,
+	-straw,
+
+868.Late:
+	-fee,
+	-night,
+
+869.Lateral:
+	-move,
+
+870.Latest:
+	-trend,
+
+871.Latitude:
+	-line,
+
+872.Latter:
+	-half,
+
+873.Laundry:
+	-detergent,
+	-list,
+
+874.Lava:
+	-lamp,
+
+875.Law:
+	-enforcement,
+	-firm,
+	-suit,
+
+876.Lawn:
+	-care,
+	-chair,
+	-mower,
+
+877.Lawsuit:
+	-settlement,
+
+878.Layer:
+	-cake,
+
+879.Layout:
+	-plan,
+
+880.Lead:
+	-singer,
+	-story,
+
+881.Leading:
+	-cause,
+
+882.Leaf:
+	-blower,
+
+883.Leak:
+	-detector,
+
+884.Learning:
+	-curve,
+	-disability,
+	-outcome,
+	-style,
+
+885.Lease:
+	-agreement,
+	-term,
+
+886.Leather:
+	imitation-,
+	-belt,
+	-jacket,
+
+887.Lecture:
+	-hall,
+
+888.Left:
+	-field,
+
+889.Legal:
+	-aid,
+	-document,
+	-issue,
+	-limit,
+	-notice,
+	-right,
+	-system,
+
+890.Legend:
+	-status,
+
+891.Leisure:
+	-activity,
+
+892.Lemon:
+	-slice,
+
+893.Lemonade:
+	-stand,
+
+894.Lend:
+	-lease,
+
+895.Length:
+	-limit,
+
+896.Lesson:
+	-plan,
+
+897.Letter:
+	-grade,
+	-opener,
+	-size,
+
+898.Level:
+	-ground,
+	-playing,
+	-surface,
+
+899.Lever:
+	-arm,
+
+900.Liability:
+	-claim,
+	-insurance,
+
+901.Library:
+	-catalog,
+	-desk,
+	-fine,
+	-system,
+
+902.License:
+	-plate,
+
+903.Licensing:
+	-agreement,
+
+904.Life:
+	-expectancy,
+	-goal,
+	-guard,
+	-insurance,
+	-jacket,
+	-lesson,
+	-partner,
+	-preserver,
+	-raft,
+	-science,
+	-sentence,
+	-stage,
+	-style,
+
+905.Lifetime:
+	-achievement,
+
+906.Lift:
+	-chair,
+
+907.Light:
+	brake-,
+	bright-,
+	candle-,
+	hallway-,
+	natural-,
+	neon-,
+	overhead-,
+	pilot-,
+	porch-,
+	quasar-,
+	scoreboard-,
+	sensor-,
+	shine-,
+	signal-,
+	spot-,
+	stage-,
+	tail-,
+	torch-,
+	traffic-,
+	ultraviolet-,
+	visible-,
+	yellow-,
+	-beam,
+	-bulb,
+	-meter,
+	-rail,
+	-switch,
+	-weight,
+
+908.Lighthouse:
+	-keeper,
+
+909.Lighting:
+	-fixture,
+
+910.Lightning:
+	-bolt,
+
+911.Like:
+	-button,
+
+912.Likelihood:
+	-ratio,
+
+913.Limb:
+	-injury,
+
+914.Limited:
+	-edition,
+
+915.Limiting:
+	-factor,
+
+916.Line:
+	-chart,
+	-cook,
+	-drive,
+	-segment,
+
+917.Linear:
+	-function,
+
+918.Linguistic:
+	-analysis,
+
+919.Lip:
+	-balm,
+	-gloss,
+	-service,
+
+920.Liquid:
+	-asset,
+	-crystal,
+	-solution,
+
+921.List:
+	-price,
+	-view,
+
+922.Listening:
+	-skill,
+
+923.Liter:
+	-bottle,
+
+924.Literary:
+	-agent,
+	-award,
+	-device,
+
+925.Litigation:
+	-cost,
+
+926.Little:
+	-league,
+
+927.Live:
+	-action,
+	-event,
+	-feed,
+	-music,
+	-stream,
+
+928.Liver:
+	-disease,
+
+929.Living:
+	-arrangement,
+	-expenses,
+	-legend,
+	-organism,
+	-proof,
+	-room,
+
+930.Load:
+	-factor,
+
+931.Loan:
+	-amount,
+	-application,
+	-approval,
+	-officer,
+	-payment,
+	-term,
+
+932.Lobby:
+	-desk,
+
+933.Local:
+	-area,
+	-government,
+	-law,
+	-traffic,
+
+934.Location:
+	-marker,
+
+935.Locker:
+	evidence-,
+	-room,
+
+936.Lockout:
+	-tag,
+
+937.Log:
+	-cabin,
+	-line,
+	-scale,
+
+938.Logic:
+	-gate,
+	-puzzle,
+
+939.Logistics:
+	-company,
+
+940.Long:
+	-drive,
+	-jump,
+	-shot,
+	-sleeve,
+	-term,
+
+941.Longest:
+	-path,
+
+942.Look:
+	-out,
+
+943.Loop:
+	-hole,
+
+944.Loose:
+	-leaf,
+	-thread,
+
+945.Lose:
+	-weight,
+
+946.Loss:
+	-leader,
+
+947.Lost:
+	-cause,
+	-property,
+
+948.Loud:
+	-noise,
+
+949.Lounge:
+	-chair,
+
+950.Love:
+	-affair,
+	-letter,
+	-life,
+	-story,
+
+951.Low:
+	-cost,
+	-income,
+	-pressure,
+	-risk,
+	-tide,
+	-voltage,
+
+952.Loyal:
+	-customer,
+	-fan,
+
+953.Lucky:
+	-break,
+	-charm,
+
+954.Luggage:
+	-tag,
+
+955.Lumber:
+	-yard,
+
+956.Lunar:
+	-eclipse,
+
+957.Lunch:
+	-break,
+	-hour,
+	-menu,
+	-money,
+
+958.Lung:
+	-capacity,
+
+959.Luxury:
+	-item,
+
+960.Machine:
+	-learning,
+	-part,
+	-shop,
+
+961.Macro:
+	-lens,
+
+962.Magazine:
+	-article,
+	-rack,
+
+963.Magic:
+	-trick,
+
+964.Magnetic:
+	-field,
+
+965.Mail:
+	-carrier,
+	-order,
+
+966.Main:
+	-event,
+	-topic,
+
+967.Maintain:
+	-speed,
+
+968.Maintenance:
+	-fee,
+
+969.Major:
+	-change,
+	-league,
+	-road,
+
+970.Makeup:
+	-artist,
+	-kit,
+
+971.Making:
+	-process,
+
+972.Male:
+	-lead,
+
+973.Mall:
+	-cop,
+	-entrance,
+	-kiosk,
+
+974.Manager:
+	-approval,
+	-desk,
+	-role,
+
+975.Mandatory:
+	-meeting,
+
+976.Manila:
+	-folder,
+
+977.Manner:
+	-mode,
+
+978.Manual:
+	-labor,
+	-mode,
+
+979.Map:
+	-area,
+	-legend,
+	-location,
+	-view,
+
+980.Marathon:
+	ultra-,
+	-runner,
+
+981.Marching:
+	-band,
+
+982.Market:
+	export-,
+	fair-,
+	global-,
+	labor-,
+	local-,
+	meat-,
+	money-,
+	open-,
+	overseas-,
+	produce-,
+	stock-,
+	village-,
+	world-,
+	-analysis,
+	-demand,
+	-price,
+	-share,
+
+983.Marketing:
+	-plan,
+
+984.Marriage:
+	-license,
+
+985.Married:
+	-couple,
+
+986.Marrow:
+	-donor,
+
+987.Martial:
+	-art,
+	-law,
+
+988.Martin:
+	-guitar,
+
+989.Mask:
+	-mandate,
+
+990.Mass:
+	-appeal,
+	-media,
+	-transit,
+
+991.Massage:
+	-chair,
+
+992.Master:
+	station-,
+	-copy,
+	-key,
+	-plan,
+
+993.Masterpiece:
+	-theater,
+
+994.Matching:
+	-set,
+
+995.Material:
+	-cost,
+	-fact,
+
+996.Math:
+	-equation,
+	-problem,
+	-tutor,
+
+997.Mathematics:
+	-department,
+
+998.Matter:
+	-expert,
+
+999.Maximum:
+	-limit,
+	-speed,
+
+1000.Meal:
+	-plan,
+	-prep,
+
+1001.Mean:
+	-value,
+
+1002.Measuring:
+	-cup,
+	-tape,
+
+1003.Meat:
+	-grinder,
+
+1004.Mechanic:
+	-shop,
+
+1005.Mechanical:
+	-part,
+
+1006.Media:
+	-coverage,
+	-outlet,
+
+1007.Medical:
+	-advice,
+	-alert,
+	-bill,
+	-device,
+	-facility,
+	-insurance,
+	-record,
+	-report,
+
+1008.Medication:
+	-list,
+
+1009.Medicine:
+	-bottle,
+
+1010.Medium:
+	-size,
+
+1011.Meeting:
+	-agenda,
+	-point,
+
+1012.Member:
+	-benefit,
+	-list,
+
+1013.Membership:
+	-fee,
+
+1014.Memory:
+	-chip,
+	-lane,
+	-loss,
+
+1015.Mental:
+	-health,
+	-note,
+
+1016.Menu:
+	-option,
+	-price,
+
+1017.Merchandise:
+	-credit,
+
+1018.Merit:
+	-badge,
+	-list,
+
+1019.Message:
+	-thread,
+
+1020.Metal:
+	-detector,
+	-roof,
+
+1021.Meter:
+	-reading,
+
+1022.Method:
+	-name,
+
+1023.Methodology:
+	-section,
+
+1024.Metric:
+	-ton,
+
+1025.Metro:
+	-station,
+
+1026.Micro:
+	-loan,
+	-usb,
+
+1027.Microphone:
+	-stand,
+
+1028.Microscope:
+	-slide,
+
+1029.Middle:
+	-class,
+	-ground,
+	-name,
+	-school,
+
+1030.Midnight:
+	-oil,
+
+1031.Migration:
+	-path,
+
+1032.Military:
+	-base,
+	-force,
+	-rank,
+
+1033.Milk:
+	oat-,
+	-carton,
+	-chocolate,
+	-jug,
+	-shake,
+	-tooth,
+	-truck,
+
+1034.Million:
+	-dollar,
+
+1035.Mind:
+	-map,
+	-reader,
+	-set,
+
+1036.Mine:
+	-shaft,
+
+1037.Mineral:
+	-water,
+
+1038.Minimum:
+	-balance,
+	-wage,
+
+1039.Minor:
+	-change,
+	-injury,
+	-league,
+	-role,
+
+1040.Mint:
+	-flavor,
+
+1041.Miracle:
+	-cure,
+
+1042.Misconduct:
+	-case,
+
+1043.Missile:
+	-defense,
+
+1044.Mission:
+	-control,
+	-statement,
+
+1045.Mixed:
+	-drink,
+	-media,
+
+1046.Mobile:
+	-device,
+	-wallet,
+
+1047.Model:
+	-airplane,
+
+1048.Moderate:
+	-risk,
+
+1049.Modern:
+	-art,
+	-history,
+	-life,
+
+1050.Modest:
+	-goal,
+
+1051.Modification:
+	-request,
+
+1052.Modular:
+	-design,
+
+1053.Molecular:
+	-biology,
+
+1054.Moment:
+	-arm,
+
+1055.Momentum:
+	-transfer,
+
+1056.Money:
+	-clip,
+	-laundering,
+	-order,
+	-supply,
+
+1057.Monitor:
+	-speaker,
+
+1058.Monkey:
+	-bar,
+
+1059.Monthly:
+	-bill,
+	-fee,
+	-income,
+	-payment,
+
+1060.Monument:
+	-sign,
+
+1061.Moon:
+	-phase,
+
+1062.Moonlight:
+	-sonata,
+
+1063.Moral:
+	-dilemma,
+
+1064.More:
+	-detail,
+
+1065.Morning:
+	-dew,
+	-routine,
+
+1066.Mortgage:
+	-loan,
+	-rate,
+
+1067.Mother:
+	-tongue,
+
+1068.Motion:
+	-detector,
+	-picture,
+	-sensor,
+
+1069.Motivational:
+	-quote,
+
+1070.Motor:
+	electric-,
+	-oil,
+	-pool,
+	-vehicle,
+
+1071.Motorcycle:
+	-helmet,
+
+1072.Mountain:
+	-bike,
+	-cabin,
+	-goat,
+	-lion,
+	-pass,
+	-range,
+
+1073.Mouse:
+	-pad,
+
+1074.Movie:
+	horror-,
+	-buff,
+	-director,
+	-night,
+	-review,
+	-star,
+
+1075.Moving:
+	-truck,
+
+1076.Multi:
+	-tool,
+
+1077.Multiple:
+	-choice,
+
+1078.Municipal:
+	-bond,
+
+1079.Music:
+	jazz-,
+	lounge-,
+	soothing-,
+	-album,
+	-class,
+	-festival,
+	-genre,
+	-lesson,
+	-note,
+	-player,
+	-store,
+	-teacher,
+
+1080.Mustard:
+	-seed,
+
+1081.Mutual:
+	-fund,
+	-goal,
+
+1082.Mystery:
+	-novel,
+
+1083.Nail:
+	-polish,
+
+1084.Name:
+	-badge,
+	-change,
+	-plate,
+	-tag,
+
+1085.Nanny:
+	-cam,
+
+1086.Narrative:
+	-arc,
+
+1087.Narrow:
+	-escape,
+
+1088.National:
+	-anthem,
+	-park,
+
+1089.Native:
+	-language,
+
+1090.Natural:
+	-disaster,
+	-gas,
+	-habitat,
+	-resource,
+
+1091.Navigation:
+	-bar,
+	-system,
+
+1092.Negative:
+	-charge,
+	-feedback,
+
+1093.Negotiation:
+	-skill,
+
+1094.Neon:
+	-color,
+	-sign,
+
+1095.Nerve:
+	-ending,
+	-fiber,
+
+1096.Network:
+	-adapter,
+	-administrator,
+	-error,
+	-provider,
+	-security,
+
+1097.Neural:
+	-network,
+
+1098.Neutral:
+	-color,
+
+1099.New:
+	someone-,
+
+1100.News:
+	daily-,
+	local-,
+	world-,
+	-anchor,
+	-article,
+	-feed,
+	-flash,
+	-headline,
+	-media,
+	-outlet,
+	-report,
+	-room,
+	-source,
+
+1101.Newsletter:
+	-signup,
+
+1102.Newspaper:
+	-article,
+	-editor,
+	-stand,
+
+1103.Next:
+	-phase,
+	-round,
+	-step,
+
+1104.Nick:
+	-name,
+
+1105.Night:
+	casino-,
+	date-,
+	karaoke-,
+	prom-,
+	-class,
+	-life,
+	-light,
+	-market,
+	-mode,
+	-owl,
+	-shift,
+	-sky,
+	-vision,
+
+1106.Nightclub:
+	-owner,
+
+1107.Nightgown:
+	-fabric,
+
+1108.Nightmare:
+	-scenario,
+
+1109.Nine:
+	-lives,
+
+1110.Nitrate:
+	-level,
+
+1111.Nitrogen:
+	-cycle,
+
+1112.Noble:
+	-gas,
+
+1113.Noise:
+	-complaint,
+	-level,
+	-pollution,
+
+1114.Nominee:
+	-list,
+
+1115.Nonprofit:
+	-organization,
+
+1116.Normal:
+	-distribution,
+	-range,
+
+1117.North:
+	-pole,
+
+1118.Nose:
+	-bleed,
+	-ring,
+
+1119.Note:
+	editor-,
+	handwritten-,
+	important-,
+	quarter-,
+	release-,
+	sticky-,
+	take-,
+	voice-,
+	-card,
+	-pad,
+	-taker,
+	-value,
+
+1120.Noted:
+	-author,
+
+1121.Nothing:
+	-burger,
+
+1122.Notice:
+	-period,
+
+1123.Novel:
+	-idea,
+	-series,
+	-writer,
+
+1124.Nuclear:
+	-family,
+	-option,
+	-reactor,
+	-weapon,
+
+1125.Number:
+	atomic-,
+	catalog-,
+	even-,
+	invoice-,
+	issue-,
+	mistake-,
+	model-,
+	negative-,
+	order-,
+	page-,
+	pin-,
+	positive-,
+	prime-,
+	random-,
+	receipt-,
+	request-,
+	sequence-,
+	serial-,
+	telephone-,
+	unknown-,
+	version-,
+	-cruncher,
+	-line,
+	-plate,
+
+1126.Numerical:
+	-order,
+
+1127.Numerous:
+	-attempts,
+
+1128.Nurse:
+	-assistant,
+	-practitioner,
+
+1129.Nursery:
+	-rhyme,
+
+1130.Nut:
+	-allergy,
+	-butter,
+	-cracker,
+
+1131.Nutrient:
+	-value,
+
+1132.Nutrition:
+	-fact,
+	-label,
+
+1133.Oatmeal:
+	-cookie,
+
+1134.Objective:
+	-lens,
+
+1135.Observation:
+	-deck,
+	-post,
+
+1136.Observer:
+	-effect,
+
+1137.Occupational:
+	-hazard,
+
+1138.Ocean:
+	-breeze,
+	-current,
+	-floor,
+	-liner,
+	-view,
+
+1139.Octave:
+	-range,
+
+1140.Octopus:
+	-tentacle,
+
+1141.Office:
+	branch-,
+	dentist-,
+	law-,
+	main-,
+	mayor-,
+	patent-,
+	president-,
+	principal-,
+	prosecutor-,
+	rental-,
+	superintendent-,
+	-assistant,
+	-building,
+	-chair,
+	-clerk,
+	-door,
+	-manager,
+	-party,
+	-phone,
+	-plant,
+	-politics,
+	-space,
+	-supply,
+
+1142.Officer:
+	-rank,
+
+1143.Official:
+	-document,
+	-language,
+	-record,
+
+1144.Offset:
+	-printing,
+
+1145.Offshore:
+	-bank,
+	-drilling,
+
+1146.Oil:
+	beard-,
+	engine-,
+	-change,
+	-company,
+	-filter,
+	-lamp,
+	-paint,
+	-refinery,
+	-rig,
+	-spill,
+	-well,
+
+1147.Old:
+	-age,
+	-friend,
+	-habit,
+	-town,
+
+1148.Olive:
+	-branch,
+	-oil,
+
+1149.Olympic:
+	-athlete,
+	-event,
+	-gold,
+
+1150.Onboarding:
+	-process,
+
+1151.Online:
+	-banking,
+	-forum,
+	-order,
+	-payment,
+	-platform,
+	-quiz,
+	-review,
+	-service,
+	-shop,
+	-transaction,
+
+1152.Onset:
+	-date,
+
+1153.Onshore:
+	-wind,
+
+1154.Open:
+	-access,
+	-case,
+	-letter,
+	-position,
+	-source,
+	-space,
+
+1155.Opening:
+	job-,
+	-act,
+	-ceremony,
+	-night,
+
+1156.Operating:
+	-cost,
+	-system,
+
+1157.Operation:
+	-mode,
+
+1158.Operator:
+	-error,
+
+1159.Opinion:
+	-piece,
+	-poll,
+
+1160.Opportunity:
+	-cost,
+
+1161.Optical:
+	-illusion,
+	-sensor,
+	-zoom,
+
+1162.Optimal:
+	-solution,
+
+1163.Optimism:
+	-bias,
+
+1164.Option:
+	-menu,
+	-price,
+	-value,
+
+1165.Oral:
+	-hygiene,
+
+1166.Orange:
+	-juice,
+	-peel,
+
+1167.Orbit:
+	-path,
+
+1168.Order:
+	-confirmation,
+	-form,
+	-summary,
+	-volume,
+
+1169.Ordinary:
+	-citizen,
+
+1170.Organization:
+	-chart,
+	-goal,
+	-leader,
+
+1171.Organizer:
+	-pocket,
+
+1172.Organizing:
+	-principle,
+
+1173.Origin:
+	-story,
+
+1174.Original:
+	-idea,
+	-owner,
+
+1175.Orphan:
+	-child,
+
+1176.Orthopedic:
+	-surgeon,
+
+1177.Oscillation:
+	-frequency,
+
+1178.Osmotic:
+	-pressure,
+
+1179.Outer:
+	-layer,
+	-ring,
+	-space,
+
+1180.Outfit:
+	-choice,
+
+1181.Outgoing:
+	-mail,
+
+1182.Outlet:
+	-mall,
+
+1183.Outline:
+	-map,
+
+1184.Output:
+	-device,
+
+1185.Outside:
+	-chance,
+	-help,
+	-influence,
+	-observer,
+	-source,
+
+1186.Outstanding:
+	-balance,
+
+1187.Oven:
+	-mitt,
+	-rack,
+
+1188.Over:
+	-achiever,
+	-charge,
+	-dose,
+	-estimate,
+	-supply,
+
+1189.Overall:
+	-score,
+
+1190.Overdraft:
+	-fee,
+
+1191.Overflow:
+	-error,
+
+1192.Overhead:
+	-cost,
+
+1193.Overlap:
+	-area,
+
+1194.Overload:
+	-circuit,
+
+1195.Overnight:
+	-bag,
+
+1196.Oversight:
+	-committee,
+
+1197.Overweight:
+	-baggage,
+
+1198.Owner:
+	-operator,
+
+1199.Ownership:
+	-stake,
+
+1200.Oxygen:
+	-mask,
+	-tank,
+
+1201.Package:
+	-deal,
+	-tour,
+
+1202.Packing:
+	-list,
+
+1203.Pad:
+	-lock,
+
+1204.Paint:
+	finger-,
+	-brush,
+	-color,
+	-roller,
+	-thinner,
+
+1205.Painting:
+	original-,
+	-class,
+
+1206.Pair:
+	-bond,
+
+1207.Palace:
+	-guard,
+
+1208.Palm:
+	-tree,
+
+1209.Panel:
+	-discussion,
+	-door,
+
+1210.Panelist:
+	-group,
+
+1211.Panic:
+	-button,
+
+1212.Paper:
+	filter-,
+	graph-,
+	notebook-,
+	photo-,
+	position-,
+	printer-,
+	question-,
+	scratch-,
+	term-,
+	toilet-,
+	wall-,
+	xerox-,
+	-bag,
+	-cut,
+	-jam,
+	-plane,
+	-towel,
+	-trail,
+
+1213.Paperwork:
+	-submission,
+
+1214.Parade:
+	-float,
+	-route,
+
+1215.Parallel:
+	-circuit,
+	-line,
+
+1216.Parent:
+	-company,
+	-directory,
+	-meeting,
+
+1217.Parental:
+	-control,
+
+1218.Park:
+	adventure-,
+	local-,
+	statue-,
+	trailer-,
+	trampoline-,
+
+1219.Parking:
+	-garage,
+	-lot,
+	-meter,
+	-pass,
+	-permit,
+	-space,
+
+1220.Parkland:
+	-area,
+
+1221.Parliament:
+	-session,
+
+1222.Partner:
+	-agency,
+
+1223.Party:
+	-favor,
+	-leader,
+	-member,
+	-planner,
+	-supply,
+
+1224.Pass:
+	-phrase,
+
+1225.Passenger:
+	-train,
+
+1226.Passing:
+	-lane,
+
+1227.Passport:
+	-photo,
+
+1228.Password:
+	network-,
+	-reset,
+	-vault,
+
+1229.Past:
+	-due,
+	-tense,
+
+1230.Pastry:
+	-chef,
+
+1231.Path:
+	-finder,
+
+1232.Patient:
+	-care,
+	-chart,
+	-record,
+
+1233.Patrol:
+	-officer,
+	-route,
+
+1234.Pattern:
+	-block,
+	-matching,
+
+1235.Pause:
+	-button,
+
+1236.Pay:
+	overtime-,
+	-grade,
+	-phone,
+	-rate,
+	-stub,
+
+1237.Payment:
+	-amount,
+	-method,
+	-plan,
+	-receipt,
+	-system,
+
+1238.Payroll:
+	-tax,
+
+1239.Peace:
+	-treaty,
+
+1240.Peak:
+	-hour,
+	-season,
+
+1241.Peanut:
+	-butter,
+
+1242.Pearl:
+	-earring,
+
+1243.Pedestrian:
+	-bridge,
+
+1244.Peer:
+	-group,
+	-review,
+
+1245.Pen:
+	-pal,
+
+1246.Penalty:
+	-kick,
+
+1247.Pencil:
+	-case,
+	-sharpener,
+
+1248.Pending:
+	-case,
+	-order,
+
+1249.Pension:
+	-fund,
+
+1250.People:
+	-mover,
+	-person,
+
+1251.Pepper:
+	-mill,
+
+1252.Performance:
+	-bonus,
+	-goal,
+	-review,
+
+1253.Perfume:
+	-bottle,
+
+1254.Period:
+	-drama,
+	-piece,
+
+1255.Permanent:
+	-marker,
+
+1256.Permit:
+	-holder,
+
+1257.Personality:
+	-trait,
+
+1258.Perspective:
+	-view,
+
+1259.Pet:
+	-carrier,
+	-peeve,
+	-shelter,
+
+1260.Petal:
+	-color,
+
+1261.Petroleum:
+	-jelly,
+
+1262.Phantom:
+	-limb,
+
+1263.Phase:
+	-change,
+
+1264.Phone:
+	flip-,
+	mobile-,
+	satellite-,
+	-app,
+	-booth,
+	-call,
+	-charger,
+	-cord,
+	-jack,
+	-line,
+	-number,
+	-plan,
+	-screen,
+	-signal,
+
+1265.Photo:
+	-booth,
+	-editor,
+	-finish,
+	-frame,
+	-shoot,
+
+1266.Photograph:
+	-collection,
+
+1267.Physical:
+	-address,
+	-change,
+	-feature,
+	-therapist,
+
+1268.Piano:
+	-bench,
+	-lesson,
+
+1269.Pick:
+	-pocket,
+
+1270.Pickup:
+	-line,
+	-truck,
+
+1271.Picture:
+	-frame,
+
+1272.Pie:
+	-chart,
+
+1273.Piece:
+	-rate,
+
+1274.Piercing:
+	-shop,
+
+1275.Pig:
+	-pen,
+
+1276.Pilot:
+	-program,
+
+1277.Pine:
+	-cone,
+
+1278.Ping:
+	-pong,
+
+1279.Pink:
+	-slip,
+
+1280.Pioneer:
+	-species,
+
+1281.Pipe:
+	-cleaner,
+
+1282.Pipeline:
+	-leak,
+
+1283.Pirate:
+	-ship,
+
+1284.Pitch:
+	-count,
+	-fork,
+
+1285.Pixel:
+	-art,
+
+1286.Pizza:
+	-box,
+	-cutter,
+
+1287.Place:
+	-holder,
+	-mat,
+	-name,
+
+1288.Plant:
+	aquatic-,
+	hanging-,
+	hydro-,
+	indoor-,
+	manufacturing-,
+	pitcher-,
+	thistle-,
+	tomato-,
+	-cell,
+	-food,
+	-growth,
+	-nursery,
+	-pot,
+
+1289.Plastic:
+	-bag,
+	-bottle,
+	-cup,
+	-wrap,
+
+1290.Plate:
+	-tectonic,
+
+1291.Platform:
+	-shoe,
+
+1292.Platinum:
+	-ring,
+
+1293.Play:
+	double-,
+	-area,
+	-button,
+	-date,
+	-group,
+	-list,
+	-money,
+	-room,
+	-station,
+
+1294.Player:
+	flute-,
+	record-,
+	single-,
+	-profile,
+
+1295.Playground:
+	-equipment,
+
+1296.Pleasant:
+	-surprise,
+
+1297.Plot:
+	-line,
+
+1298.Plug:
+	-socket,
+
+1299.Plug-in:
+	-module,
+
+1300.Plumber:
+	-tool,
+
+1301.Plumbing:
+	-issue,
+
+1302.Plus:
+	-sign,
+
+1303.Pocket:
+	-change,
+
+1304.Pod:
+	-cast,
+
+1305.Point:
+	-guard,
+	-system,
+
+1306.Poison:
+	-ivy,
+
+1307.Polar:
+	-bear,
+	-ice,
+	-region,
+
+1308.Police:
+	-academy,
+	-badge,
+	-car,
+	-chief,
+	-dog,
+	-officer,
+	-radio,
+	-report,
+
+1309.Policy:
+	-holder,
+	-maker,
+
+1310.Political:
+	-debate,
+	-party,
+	-view,
+
+1311.Pollution:
+	-control,
+
+1312.Pool:
+	-cue,
+	-party,
+	-table,
+
+1313.Pop:
+	-music,
+	-quiz,
+	-singer,
+	-star,
+
+1314.Popcorn:
+	-bucket,
+
+1315.Popular:
+	-vote,
+
+1316.Population:
+	-density,
+	-growth,
+
+1317.Porcelain:
+	-dish,
+
+1318.Pork:
+	-chop,
+
+1319.Portable:
+	-fan,
+	-speaker,
+
+1320.Portal:
+	-site,
+
+1321.Portfolio:
+	-review,
+
+1322.Portion:
+	-size,
+
+1323.Portrait:
+	-artist,
+	-mode,
+
+1324.Positive:
+	-charge,
+	-feedback,
+
+1325.Postal:
+	-worker,
+
+1326.Postcard:
+	-collection,
+
+1327.Postman:
+	-route,
+
+1328.Posture:
+	-brace,
+
+1329.Pot:
+	-holder,
+	-roast,
+
+1330.Potato:
+	-chip,
+	-salad,
+
+1331.Potential:
+	-risk,
+
+1332.Pouch:
+	-bag,
+
+1333.Pound:
+	-cake,
+
+1334.Power:
+	veto-,
+	wind-,
+	world-,
+	-adapter,
+	-bank,
+	-button,
+	-cable,
+	-drill,
+	-failure,
+	-grid,
+	-line,
+	-outage,
+	-plant,
+	-point,
+	-source,
+	-station,
+	-strip,
+	-supply,
+	-tool,
+
+1335.Practical:
+	-joke,
+
+1336.Practice:
+	-drill,
+	-field,
+
+1337.Praise:
+	-song,
+
+1338.Precaution:
+	-measure,
+
+1339.Precision:
+	-tool,
+
+1340.Preference:
+	-setting,
+
+1341.Premium:
+	-plan,
+
+1342.Preposition:
+	-use,
+
+1343.Prescription:
+	-drug,
+
+1344.Presentation:
+	-slide,
+
+1345.Presenter:
+	-mode,
+
+1346.Press:
+	-release,
+
+1347.Pressure:
+	-cooker,
+	-gauge,
+	-point,
+
+1348.Pretty:
+	-please,
+
+1349.Price:
+	-check,
+	-list,
+	-range,
+	-tag,
+
+1350.Pride:
+	-parade,
+
+1351.Primary:
+	-color,
+	-source,
+
+1352.Prime:
+	-minister,
+
+1353.Prince:
+	-charming,
+
+1354.Print:
+	-job,
+	-out,
+
+1355.Printer:
+	-ink,
+
+1356.Printing:
+	-press,
+
+1357.Priority:
+	-mail,
+
+1358.Prison:
+	-cell,
+	-guard,
+
+1359.Privacy:
+	-policy,
+
+1360.Private:
+	-lesson,
+	-message,
+	-school,
+
+1361.Prize:
+	-money,
+	-winner,
+
+1362.Problem:
+	-area,
+	-child,
+	-set,
+
+1363.Process:
+	-server,
+
+1364.Processing:
+	-fee,
+
+1365.Produce:
+	-aisle,
+
+1366.Product:
+	-launch,
+	-line,
+	-manager,
+	-review,
+
+1367.Production:
+	-cost,
+
+1368.Professional:
+	-athlete,
+
+1369.Profile:
+	-picture,
+
+1370.Profit:
+	-margin,
+
+1371.Program:
+	-director,
+	-manager,
+	-update,
+
+1372.Progress:
+	-bar,
+	-report,
+
+1373.Project:
+	-plan,
+
+1374.Prom:
+	-date,
+	-queen,
+
+1375.Promotion:
+	-offer,
+
+1376.Proof:
+	-reader,
+
+1377.Proper:
+	-noun,
+
+1378.Property:
+	-line,
+	-value,
+
+1379.Proposal:
+	grant-,
+	marriage-,
+
+1380.Proposed:
+	-plan,
+
+1381.Prosecuting:
+	-attorney,
+
+1382.Prosecution:
+	-case,
+
+1383.Prospective:
+	-buyer,
+
+1384.Protein:
+	-bar,
+	-shake,
+
+1385.Protest:
+	-march,
+
+1386.Protocol:
+	-breach,
+
+1387.Proud:
+	-parent,
+
+1388.Prove:
+	-point,
+
+1389.Provide:
+	-service,
+
+1390.Province:
+	-capital,
+
+1391.Provision:
+	-clause,
+
+1392.Public:
+	-address,
+	-forum,
+	-library,
+	-park,
+	-policy,
+	-school,
+	-service,
+	-speaker,
+	-statement,
+
+1393.Publication:
+	-date,
+
+1394.Publish:
+	-date,
+
+1395.Publisher:
+	-logo,
+
+1396.Puddle:
+	-jumper,
+
+1397.Puff:
+	-pastry,
+
+1398.Pull:
+	-down,
+	-quote,
+	-tab,
+
+1399.Pulse:
+	-rate,
+
+1400.Pump:
+	-jack,
+
+1401.Punch:
+	-line,
+
+1402.Puncture:
+	-wound,
+
+1403.Punishment:
+	-task,
+
+1404.Purchase:
+	-agreement,
+	-order,
+
+1405.Purple:
+	-heart,
+
+1406.Purpose:
+	-statement,
+
+1407.Purse:
+	-strap,
+
+1408.Push:
+	-button,
+	-notification,
+	-pin,
+
+1409.Put:
+	-option,
+
+1410.Quad:
+	-core,
+
+1411.Quadruple:
+	-jump,
+
+1412.Quaint:
+	-village,
+
+1413.Quality:
+	-assurance,
+	-check,
+	-control,
+	-product,
+	-score,
+
+1414.Quantity:
+	-discount,
+	-limit,
+	-survey,
+
+1415.Quantum:
+	-leap,
+	-mechanics,
+
+1416.Quarantine:
+	-period,
+
+1417.Quarter:
+	-hour,
+	-mile,
+	-pound,
+
+1418.Quarterback:
+	-sneak,
+
+1419.Quartz:
+	-crystal,
+
+1420.Queen:
+	-bee,
+	-size,
+
+1421.Question:
+	-bank,
+	-mark,
+	-type,
+
+1422.Quick:
+	-change,
+	-fix,
+	-glance,
+	-lunch,
+	-release,
+	-reply,
+	-review,
+	-sort,
+
+1423.Quiet:
+	-corner,
+	-place,
+
+1424.Quilt:
+	-pattern,
+	-square,
+
+1425.Quota:
+	-limit,
+	-system,
+
+1426.Quote:
+	-request,
+	-symbol,
+
+1427.Quoted:
+	-price,
+
+1428.Quoth:
+	-raven,
+
+1429.Race:
+	derby-,
+	drag-,
+	hurdle-,
+	relay-,
+	yacht-,
+	-car,
+	-course,
+	-day,
+	-track,
+	-winner,
+
+1430.Rack:
+	-mount,
+
+1431.Radar:
+	-detector,
+
+1432.Radiation:
+	-dose,
+	-level,
+
+1433.Radio:
+	-button,
+	-frequency,
+	-signal,
+	-station,
+	-tower,
+
+1434.Raft:
+	-trip,
+
+1435.Rag:
+	-doll,
+
+1436.Rail:
+	deck-,
+	guard-,
+	stair-,
+	-car,
+	-line,
+	-station,
+	-yard,
+
+1437.Railroad:
+	-crossing,
+
+1438.Rain:
+	-barrel,
+	-check,
+	-cloud,
+	-forest,
+	-gauge,
+	-storm,
+	-water,
+
+1439.Rainbow:
+	-trout,
+
+1440.Raincoat:
+	-pocket,
+
+1441.Rally:
+	-point,
+
+1442.Ram:
+	-memory,
+
+1443.Ramp:
+	-access,
+
+1444.Range:
+	-finder,
+	-hood,
+
+1445.Rank:
+	-order,
+
+1446.Rapid:
+	-transit,
+
+1447.Rare:
+	-earth,
+
+1448.Rate:
+	-hike,
+	-increase,
+	-limit,
+
+1449.Rating:
+	-scale,
+
+1450.Rattle:
+	-snake,
+
+1451.Raw:
+	-data,
+	-material,
+
+1452.Ray:
+	-diagram,
+
+1453.Razor:
+	-blade,
+
+1454.Reach:
+	-goal,
+
+1455.Reaction:
+	-force,
+
+1456.Reactor:
+	-core,
+
+1457.Read:
+	-aloud,
+	-only,
+	-receipt,
+
+1458.Reading:
+	-assignment,
+	-lamp,
+	-list,
+	-skill,
+
+1459.Ready:
+	-mix,
+
+1460.Real:
+	-estate,
+	-time,
+
+1461.Reality:
+	-check,
+
+1462.Rear:
+	-axle,
+	-door,
+	-end,
+
+1463.Reason:
+	-why,
+
+1464.Rebound:
+	-effect,
+
+1465.Receiver:
+	-unit,
+
+1466.Recent:
+	-event,
+
+1467.Recipe:
+	original-,
+	secret-,
+	-book,
+	-card,
+
+1468.Record:
+	-label,
+
+1469.Recorded:
+	-message,
+
+1470.Recovery:
+	-plan,
+
+1471.Recreation:
+	-area,
+	-center,
+
+1472.Recreational:
+	-drug,
+
+1473.Rectangular:
+	-prism,
+
+1474.Recycle:
+	-bin,
+
+1475.Recycling:
+	-center,
+
+1476.Red:
+	-alert,
+	-carpet,
+	-cross,
+	-flag,
+	-light,
+	-meat,
+	-zone,
+
+1477.Reduced:
+	-fare,
+
+1478.Reduction:
+	-rate,
+
+1479.Reef:
+	-shark,
+
+1480.Referee:
+	-whistle,
+
+1481.Reference:
+	-frame,
+	-point,
+
+1482.Refill:
+	-pack,
+
+1483.Reflective:
+	-tape,
+
+1484.Reform:
+	-act,
+
+1485.Refresh:
+	-rate,
+
+1486.Refrigerator:
+	-magnet,
+
+1487.Refund:
+	-policy,
+
+1488.Refusal:
+	-letter,
+
+1489.Regulation:
+	-change,
+	-limit,
+
+1490.Regulator:
+	-valve,
+
+1491.Rehab:
+	-center,
+
+1492.Relation:
+	-chart,
+	-table,
+
+1493.Relative:
+	-humidity,
+	-motion,
+
+1494.Relaxation:
+	-technique,
+
+1495.Release:
+	-date,
+	-form,
+
+1496.Relief:
+	-fund,
+
+1497.Relocation:
+	-plan,
+
+1498.Remedy:
+	-option,
+
+1499.Remote:
+	-access,
+	-area,
+	-control,
+	-job,
+
+1500.Removal:
+	-tool,
+
+1501.Renewal:
+	-date,
+
+1502.Rental:
+	-agreement,
+	-fee,
+
+1503.Repair:
+	-bill,
+	-kit,
+	-shop,
+
+1504.Repeat:
+	-sign,
+
+1505.Replacement:
+	-cost,
+
+1506.Report:
+	-form,
+
+1507.Reporter:
+	-notebook,
+
+1508.Request:
+	-form,
+
+1509.Required:
+	-field,
+
+1510.Requirement:
+	-analysis,
+
+1511.Research:
+	-center,
+	-grant,
+	-project,
+
+1512.Reservation:
+	-desk,
+	-fee,
+
+1513.Reserve:
+	-price,
+
+1514.Resident:
+	-advisor,
+	-hall,
+
+1515.Residential:
+	-area,
+
+1516.Residual:
+	-value,
+
+1517.Resignation:
+	-letter,
+
+1518.Resistance:
+	-band,
+
+1519.Resistivity:
+	-meter,
+
+1520.Resort:
+	ski-,
+
+1521.Respect:
+	-value,
+
+1522.Response:
+	-rate,
+
+1523.Restart:
+	-button,
+
+1524.Restaurant:
+	-bill,
+	-menu,
+	-owner,
+
+1525.Resting:
+	-place,
+
+1526.Restroom:
+	-sign,
+
+1527.Result:
+	-list,
+
+1528.Retail:
+	-price,
+
+1529.Retirement:
+	-fund,
+
+1530.Return:
+	-address,
+	-date,
+	-policy,
+
+1531.Reusable:
+	-bag,
+
+1532.Revenue:
+	-growth,
+	-stream,
+
+1533.Reverse:
+	-order,
+
+1534.Review:
+	-session,
+
+1535.Revised:
+	-edition,
+
+1536.Revolution:
+	-angle,
+
+1537.Reward:
+	-point,
+
+1538.Rice:
+	sticky-,
+	-cooker,
+	-field,
+	-paper,
+
+1539.Rich:
+	-flavor,
+
+1540.Ride:
+	-share,
+
+1541.Rider:
+	-helmet,
+
+1542.Rifle:
+	-range,
+
+1543.Right:
+	-angle,
+	-answer,
+	-field,
+
+1544.Ring:
+	-finger,
+	-leader,
+	-tone,
+
+1545.Ripple:
+	-effect,
+
+1546.Risk:
+	-assessment,
+	-factor,
+	-management,
+
+1547.River:
+	-bank,
+	-cruise,
+	-delta,
+	-front,
+
+1548.Road:
+	gravel-,
+	main-,
+	slippery-,
+	straight-,
+	toll-,
+	-block,
+	-map,
+	-rage,
+	-safety,
+	-sign,
+	-test,
+	-trip,
+
+1549.Roadside:
+	-assistance,
+
+1550.Roast:
+	-beef,
+
+1551.Robot:
+	-arm,
+	-vacuum,
+
+1552.Rock:
+	hard-,
+	moon-,
+	-band,
+	-climbing,
+	-concert,
+	-formation,
+	-garden,
+
+1553.Rocket:
+	-launch,
+	-ship,
+
+1554.Rod:
+	-holder,
+
+1555.Role:
+	-model,
+
+1556.Roll:
+	-out,
+
+1557.Roller:
+	-blade,
+	-coaster,
+
+1558.Rolling:
+	-pin,
+
+1559.Romance:
+	-novel,
+
+1560.Roof:
+	-rack,
+
+1561.Room:
+	artifact-,
+	break-,
+	breathing-,
+	chat-,
+	conference-,
+	emergency-,
+	engine-,
+	escape-,
+	function-,
+	hospital-,
+	hostel-,
+	laundry-,
+	lounge-,
+	lunch-,
+	media-,
+	meeting-,
+	mud-,
+	operating-,
+	quiet-,
+	reading-,
+	rehearsal-,
+	resource-,
+	secret-,
+	server-,
+	single-,
+	spacious-,
+	steam-,
+	stock-,
+	suite-,
+	supply-,
+	surgery-,
+	throne-,
+	trophy-,
+	upstairs-,
+	utility-,
+	vault-,
+	waiting-,
+	-key,
+	-light,
+	-mate,
+	-number,
+	-service,
+
+1562.Root:
+	-cause,
+
+1563.Rope:
+	-ladder,
+	-swing,
+
+1564.Rose:
+	-petal,
+
+1565.Rough:
+	-draft,
+
+1566.Round:
+	-table,
+
+1567.Route:
+	-map,
+
+1568.Routine:
+	-check,
+
+1569.Royal:
+	-court,
+	-family,
+
+1570.Rubber:
+	-band,
+	-duck,
+
+1571.Ruby:
+	-ring,
+
+1572.Rug:
+	-pad,
+
+1573.Rugby:
+	-match,
+
+1574.Rule:
+	-change,
+	-violation,
+
+1575.Rumor:
+	-mill,
+
+1576.Run:
+	-rate,
+	-time,
+
+1577.Runway:
+	-model,
+
+1578.Rural:
+	-area,
+
+1579.Rush:
+	-hour,
+
+1580.Rust:
+	-remover,
+
+1581.Safety:
+	-barrier,
+	-belt,
+	-check,
+	-gear,
+	-glass,
+	-light,
+	-pin,
+	-rule,
+	-sign,
+	-switch,
+	-zone,
+
+1582.Sailing:
+	-ship,
+
+1583.Salad:
+	-bar,
+	-bowl,
+
+1584.Sales:
+	-clerk,
+	-figure,
+	-force,
+	-pitch,
+	-tax,
+
+1585.Salt:
+	sea-,
+	table-,
+	-water,
+
+1586.Sample:
+	-size,
+
+1587.Sand:
+	-castle,
+	-dune,
+	-pit,
+	-storm,
+
+1588.Satellite:
+	-dish,
+
+1589.Satisfaction:
+	-survey,
+
+1590.Savings:
+	-bond,
+	-plan,
+
+1591.Scale:
+	-model,
+	-weight,
+
+1592.Scan:
+	-tool,
+
+1593.Scarecrow:
+	-field,
+
+1594.Scarf:
+	-pattern,
+
+1595.Scavenger:
+	-hunt,
+
+1596.Scene:
+	-change,
+	-setting,
+
+1597.Schedule:
+	-change,
+	-conflict,
+
+1598.School:
+	law-,
+	magnet-,
+	nursery-,
+	partner-,
+	summer-,
+	vocational-,
+	-bag,
+	-board,
+	-bus,
+	-counselor,
+	-day,
+	-district,
+	-event,
+	-holiday,
+	-lunch,
+	-nurse,
+	-play,
+	-principal,
+	-project,
+	-record,
+	-supplies,
+	-trip,
+
+1599.Science:
+	-fair,
+	-fiction,
+	-lab,
+	-project,
+
+1600.Scissors:
+	-blade,
+
+1601.Score:
+	-line,
+	-point,
+
+1602.Scout:
+	-badge,
+	-leader,
+
+1603.Screen:
+	cinema-,
+	lock-,
+	monitor-,
+	projector-,
+	splash-,
+	tablet-,
+	touch-,
+	-door,
+	-print,
+	-saver,
+	-shot,
+	-time,
+
+1604.Screw:
+	-driver,
+
+1605.Sea:
+	-breeze,
+	-captain,
+	-creature,
+	-level,
+	-lion,
+	-shell,
+	-turtle,
+
+1606.Seagull:
+	-flock,
+
+1607.Seal:
+	-coat,
+
+1608.Search:
+	binary-,
+	job-,
+	-engine,
+	-history,
+	-party,
+	-result,
+
+1609.Season:
+	-finale,
+	-pass,
+
+1610.Seat:
+	auditorium-,
+	bench-,
+	booster-,
+	driver-,
+	rear-,
+	reserve-,
+	theater-,
+	toilet-,
+	-belt,
+	-cushion,
+
+1611.Second:
+	split-,
+	thirty-,
+	-chance,
+	-hand,
+
+1612.Secret:
+	-passage,
+
+1613.Secretary:
+	-desk,
+
+1614.Section:
+	-header,
+
+1615.Sector:
+	-fund,
+
+1616.Security:
+	-alert,
+	-badge,
+	-camera,
+	-deposit,
+	-fence,
+	-guard,
+	-risk,
+
+1617.Seed:
+	-bank,
+	-money,
+	-pod,
+
+1618.Segment:
+	-length,
+
+1619.Self:
+	-care,
+	-check,
+	-defense,
+	-esteem,
+	-help,
+	-portrait,
+	-service,
+
+1620.Seller:
+	-rating,
+
+1621.Semester:
+	-break,
+
+1622.Senate:
+	-bill,
+
+1623.Senior:
+	-citizen,
+	-year,
+
+1624.Sense:
+	-organ,
+
+1625.Sentence:
+	-fragment,
+	-structure,
+
+1626.Separate:
+	-page,
+
+1627.Separation:
+	-anxiety,
+
+1628.Series:
+	-finale,
+	-winner,
+
+1629.Server:
+	-error,
+
+1630.Service:
+	-charge,
+	-desk,
+	-fee,
+	-provider,
+	-station,
+
+1631.Set:
+	-point,
+
+1632.Settlement:
+	-offer,
+
+1633.Sewing:
+	-kit,
+
+1634.Shadow:
+	-figure,
+
+1635.Shake:
+	-machine,
+	-shop,
+
+1636.Shampoo:
+	-bottle,
+	-chair,
+
+1637.Shape:
+	-sorter,
+
+1638.Share:
+	-price,
+
+1639.Shareholder:
+	-meeting,
+
+1640.Sharing:
+	-economy,
+
+1641.Sharp:
+	-edge,
+	-object,
+
+1642.Sheep:
+	-farm,
+
+1643.Sheet:
+	answer-,
+	score-,
+	tip-,
+	-music,
+
+1644.Shelf:
+	-life,
+
+1645.Shield:
+	-law,
+
+1646.Shift:
+	-change,
+
+1647.Ship:
+	-captain,
+	-crew,
+	-deck,
+
+1648.Shirt:
+	-collar,
+	-pocket,
+
+1649.Shock:
+	-absorber,
+	-wave,
+
+1650.Shoe:
+	-lace,
+	-rack,
+	-size,
+
+1651.Shop:
+	-owner,
+
+1652.Shopping:
+	-bag,
+	-cart,
+	-center,
+	-list,
+
+1653.Shore:
+	-line,
+
+1654.Short:
+	-answer,
+	-cut,
+	-film,
+	-list,
+	-notice,
+	-story,
+	-supply,
+
+1655.Shot:
+	cheap-,
+	chip-,
+	hook-,
+	jump-,
+	snap-,
+	trick-,
+
+1656.Shoulder:
+	-bag,
+	-joint,
+
+1657.Show:
+	fashion-,
+	planetarium-,
+	puppet-,
+	reality-,
+	talk-,
+	today-,
+	trade-,
+	variety-,
+	-case,
+	-time,
+
+1658.Shower:
+	-cap,
+	-gel,
+
+1659.Shrimp:
+	-cocktail,
+
+1660.Shut:
+	-down,
+
+1661.Shutter:
+	-speed,
+
+1662.Shuttle:
+	-bus,
+
+1663.Side:
+	flip-,
+	-effect,
+	-mirror,
+	-note,
+	-salad,
+	-walk,
+	-window,
+
+1664.Sideboard:
+	-table,
+
+1665.Signal:
+	-strength,
+
+1666.Signature:
+	-dish,
+	-line,
+	-move,
+
+1667.Significant:
+	-other,
+
+1668.Silk:
+	-fabric,
+	-flower,
+
+1669.Silver:
+	-coin,
+	-medal,
+
+1670.Simple:
+	-machine,
+	-present,
+	-sentence,
+	-syrup,
+	-task,
+
+1671.Single:
+	-parent,
+
+1672.Sink:
+	-drain,
+
+1673.Sinkhole:
+	-collapse,
+
+1674.Sister:
+	-group,
+
+1675.Site:
+	-plan,
+
+1676.Sitting:
+	-area,
+	-duck,
+
+1677.Six:
+	-pack,
+
+1678.Size:
+	-chart,
+	-limit,
+
+1679.Skate:
+	inline-,
+	-park,
+	-ramp,
+	-shoe,
+
+1680.Skateboard:
+	-trick,
+
+1681.Skeletal:
+	-muscle,
+
+1682.Skeleton:
+	-key,
+
+1683.Ski:
+	-lift,
+	-pass,
+
+1684.Skill:
+	-level,
+
+1685.Skin:
+	-care,
+	-tone,
+
+1686.Skirt:
+	-length,
+
+1687.Skull:
+	-cap,
+	-shape,
+
+1688.Sky:
+	-diver,
+	-scraper,
+
+1689.Skyline:
+	-view,
+
+1690.Slate:
+	-roof,
+
+1691.Sliding:
+	-door,
+	-glass,
+	-scale,
+
+1692.Slim:
+	-chance,
+
+1693.Slip:
+	-cover,
+	-knot,
+
+1694.Slow:
+	-cooker,
+	-motion,
+
+1695.Small:
+	-batch,
+	-business,
+	-change,
+	-group,
+	-package,
+	-talk,
+
+1696.Smart:
+	-card,
+	-device,
+	-phone,
+	-speaker,
+
+1697.Smile:
+	-line,
+
+1698.Smoke:
+	-alarm,
+	-detector,
+	-signal,
+
+1699.Smooth:
+	-finish,
+	-ride,
+
+1700.Snake:
+	-bite,
+
+1701.Snap:
+	-button,
+
+1702.Snow:
+	-day,
+	-fall,
+	-globe,
+	-plow,
+	-shovel,
+	-storm,
+
+1703.Soap:
+	dish-,
+	liquid-,
+	-bar,
+	-box,
+	-opera,
+
+1704.Soccer:
+	-ball,
+	-field,
+	-team,
+
+1705.Social:
+	-media,
+	-network,
+	-norm,
+	-skill,
+
+1706.Sock:
+	-drawer,
+
+1707.Soda:
+	-can,
+	-fountain,
+	-machine,
+
+1708.Soft:
+	-drink,
+	-skill,
+
+1709.Software:
+	-update,
+
+1710.Solar:
+	-cell,
+	-eclipse,
+	-panel,
+	-power,
+	-system,
+
+1711.Soldier:
+	-ant,
+
+1712.Solid:
+	-color,
+
+1713.Solo:
+	-artist,
+	-performance,
+	-traveler,
+
+1714.Solution:
+	-set,
+
+1715.Solve:
+	-problem,
+
+1716.Somebody:
+	-else,
+
+1717.Song:
+	-lyric,
+	-writer,
+
+1718.Sonic:
+	-boom,
+	-wave,
+
+1719.Sound:
+	-barrier,
+	-effect,
+	-level,
+	-system,
+
+1720.Soup:
+	-bowl,
+
+1721.Source:
+	-material,
+
+1722.South:
+	-pole,
+
+1723.Soya:
+	-bean,
+
+1724.Space:
+	-bar,
+	-craft,
+	-heater,
+	-mission,
+	-program,
+	-ship,
+	-station,
+
+1725.Spare:
+	-change,
+	-part,
+
+1726.Spark:
+	-plug,
+
+1727.Speaker:
+	-wire,
+
+1728.Special:
+	-edition,
+	-event,
+	-offer,
+	-order,
+	-price,
+	-report,
+
+1729.Specific:
+	-heat,
+
+1730.Speech:
+	-bubble,
+	-contest,
+
+1731.Speed:
+	-bump,
+	-limit,
+
+1732.Spell:
+	-check,
+
+1733.Spelling:
+	-bee,
+	-list,
+
+1734.Spending:
+	-limit,
+
+1735.Sphere:
+	-shape,
+
+1736.Spider:
+	-web,
+
+1737.Spike:
+	-protein,
+
+1738.Spin:
+	-cycle,
+
+1739.Spiral:
+	-bound,
+	-notebook,
+
+1740.Spirit:
+	-level,
+
+1741.Splash:
+	-pad,
+
+1742.Split:
+	-decision,
+	-level,
+
+1743.Spoil:
+	-alert,
+
+1744.Sponge:
+	-cake,
+
+1745.Sponsor:
+	-logo,
+
+1746.Sport:
+	-event,
+	-shoe,
+	-team,
+
+1747.Sports:
+	-bar,
+	-car,
+	-field,
+	-league,
+	-team,
+
+1748.Spot:
+	-check,
+
+1749.Spray:
+	nasal-,
+	-bottle,
+
+1750.Spring:
+	leaf-,
+	-break,
+	-roll,
+	-water,
+
+1751.Spy:
+	-plane,
+
+1752.Square:
+	-deal,
+	-mile,
+	-root,
+
+1753.Squeeze:
+	-bottle,
+
+1754.Stable:
+	-job,
+
+1755.Stack:
+	-trace,
+
+1756.Staff:
+	-meeting,
+
+1757.Stage:
+	-manager,
+	-name,
+
+1758.Stair:
+	-case,
+
+1759.Stake:
+	-holder,
+
+1760.Stall:
+	-door,
+
+1761.Stamp:
+	-collection,
+
+1762.Stand:
+	-alone,
+
+1763.Standard:
+	-form,
+	-model,
+
+1764.Standing:
+	-desk,
+	-ovation,
+
+1765.Star:
+	lone-,
+	north-,
+	quasi-,
+	shining-,
+	-chart,
+	-player,
+	-rating,
+	-sign,
+	-system,
+
+1766.Staring:
+	-contest,
+
+1767.Start:
+	slow-,
+	-date,
+	-line,
+	-menu,
+	-time,
+
+1768.Starter:
+	-pack,
+
+1769.Starting:
+	-point,
+
+1770.Starving:
+	-artist,
+
+1771.State:
+	member-,
+	nation-,
+	peninsula-,
+	quantum-,
+	solid-,
+	-capital,
+	-law,
+	-park,
+	-tax,
+
+1772.Statement:
+	-piece,
+
+1773.Station:
+	-wagon,
+
+1774.Status:
+	-bar,
+	-report,
+
+1775.Steady:
+	-job,
+
+1776.Steam:
+	-engine,
+
+1777.Steel:
+	-beam,
+	-plate,
+
+1778.Steep:
+	-hill,
+
+1779.Stem:
+	-project,
+
+1780.Step:
+	door-,
+	intermediate-,
+	lock-,
+	process-,
+	quick-,
+	-ladder,
+	-parent,
+	-sister,
+	-stool,
+
+1781.Stereo:
+	-speaker,
+
+1782.Sterling:
+	-silver,
+
+1783.Stiff:
+	-neck,
+
+1784.Still:
+	-life,
+
+1785.Stir:
+	-fry,
+	-stick,
+
+1786.Stock:
+	-broker,
+	-price,
+	-symbol,
+
+1787.Stomach:
+	-ache,
+
+1788.Stone:
+	-wall,
+
+1789.Stop:
+	bus-,
+	traffic-,
+	tram-,
+	truck-,
+	-sign,
+	-watch,
+
+1790.Storage:
+	-bin,
+	-locker,
+	-space,
+
+1791.Store:
+	antique-,
+	corner-,
+	hardware-,
+	jewelry-,
+	pet-,
+	record-,
+	retail-,
+	thrift-,
+	-clerk,
+	-manager,
+	-owner,
+
+1792.Storm:
+	-drain,
+	-shelter,
+
+1793.Story:
+	-line,
+
+1794.Straight:
+	-line,
+	-path,
+
+1795.Strange:
+	-noise,
+
+1796.Strategic:
+	-plan,
+
+1797.Straw:
+	-hat,
+
+1798.Strawberry:
+	-jam,
+
+1799.Stream:
+	-flow,
+	-line,
+
+1800.Street:
+	cobblestone-,
+	main-,
+	one-way-,
+	-address,
+	-car,
+	-light,
+	-map,
+	-name,
+	-vendor,
+
+1801.Stress:
+	-level,
+
+1802.Stretch:
+	-goal,
+
+1803.Strict:
+	-rule,
+
+1804.Strike:
+	-zone,
+
+1805.String:
+	-bean,
+	-instrument,
+	-theory,
+
+1806.Strip:
+	-mall,
+
+1807.Stripe:
+	-pattern,
+
+1808.Strong:
+	-bond,
+
+1809.Structural:
+	-steel,
+
+1810.Student:
+	law-,
+	transfer-,
+	-body,
+	-council,
+	-loan,
+	-section,
+	-union,
+
+1811.Studio:
+	animation-,
+	photo-,
+	recording-,
+	-apartment,
+	-light,
+
+1812.Study:
+	-hall,
+	-session,
+
+1813.Stuffed:
+	-crust,
+
+1814.Stunt:
+	-double,
+	-man,
+
+1815.Subject:
+	-area,
+	-line,
+	-matter,
+	-pronoun,
+
+1816.Submarine:
+	-sandwich,
+
+1817.Substance:
+	-abuse,
+
+1818.Substitute:
+	-teacher,
+
+1819.Subtraction:
+	-sign,
+
+1820.Subway:
+	-station,
+
+1821.Success:
+	-rate,
+
+1822.Successful:
+	-bid,
+
+1823.Suction:
+	-cup,
+
+1824.Sudden:
+	-change,
+
+1825.Suffer:
+	-loss,
+
+1826.Sugar:
+	-cube,
+
+1827.Summer:
+	-camp,
+	-job,
+	-vacation,
+
+1828.Sun:
+	blazing-,
+	setting-,
+	-block,
+	-flower,
+	-lamp,
+	-light,
+	-rise,
+	-roof,
+	-screen,
+	-shade,
+	-spot,
+	-tea,
+
+1829.Sunflower:
+	-seed,
+
+1830.Sunglasses:
+	-case,
+
+1831.Sunlight:
+	-exposure,
+
+1832.Sunset:
+	-view,
+
+1833.Super:
+	-hero,
+	-market,
+	-power,
+	-star,
+
+1834.Superbowl:
+	-party,
+
+1835.Superior:
+	-court,
+
+1836.Support:
+	-beam,
+	-group,
+
+1837.Suppose:
+	-case,
+
+1838.Surface:
+	-area,
+
+1839.Surprise:
+	-gift,
+	-party,
+
+1840.Survey:
+	-question,
+
+1841.Survival:
+	-kit,
+
+1842.Survivor:
+	-benefit,
+
+1843.Suspect:
+	-list,
+
+1844.Suspension:
+	-bridge,
+
+1845.Sustainable:
+	-energy,
+
+1846.Swamp:
+	-land,
+
+1847.Swap:
+	-meet,
+
+1848.Swarm:
+	-attack,
+
+1849.Sweat:
+	-band,
+	-pants,
+	-shirt,
+	-sock,
+
+1850.Swimming:
+	-pool,
+	-suit,
+
+1851.Swing:
+	-arm,
+	-set,
+
+1852.Switch:
+	-blade,
+	-case,
+
+1853.Swivel:
+	-chair,
+
+1854.Symbol:
+	-chart,
+	-list,
+
+1855.Symphony:
+	-orchestra,
+
+1856.Symptom:
+	-checker,
+
+1857.Synonym:
+	-finder,
+
+1858.System:
+	-administrator,
+	-log,
+	-memory,
+	-requirement,
+	-update,
+
+1859.Table:
+	-lamp,
+	-leg,
+	-tennis,
+
+1860.Tablet:
+	-case,
+
+1861.Taco:
+	-shell,
+
+1862.Tag:
+	-line,
+
+1863.Tail:
+	-bone,
+	-feather,
+	-gate,
+	-pipe,
+
+1864.Take:
+	-away,
+	-off,
+	-out,
+
+1865.Talent:
+	-agent,
+	-show,
+
+1866.Tall:
+	-tale,
+
+1867.Tanker:
+	-truck,
+
+1868.Tape:
+	-deck,
+	-dispenser,
+	-measure,
+
+1869.Target:
+	-audience,
+	-goal,
+
+1870.Task:
+	-bar,
+	-force,
+	-list,
+
+1871.Tax:
+	-collector,
+	-form,
+	-law,
+	-rate,
+	-refund,
+	-return,
+
+1872.Taxi:
+	-cab,
+	-fare,
+
+1873.Tea:
+	-bag,
+	-kettle,
+	-leaf,
+	-pot,
+	-spoon,
+
+1874.Teacher:
+	-aide,
+	-salary,
+
+1875.Teaching:
+	-assistant,
+
+1876.Team:
+	baseball-,
+	exploration-,
+	management-,
+	marketing-,
+	paralegal-,
+	production-,
+	project-,
+	racing-,
+	rescue-,
+	rowing-,
+	support-,
+	youth-,
+	-captain,
+	-leader,
+	-member,
+	-player,
+	-sport,
+
+1877.Tear:
+	-duct,
+	-gas,
+	-off,
+
+1878.Tech:
+	-company,
+	-industry,
+	-support,
+
+1879.Technical:
+	-drawing,
+	-skill,
+
+1880.Technology:
+	-center,
+	-field,
+
+1881.Teen:
+	-center,
+
+1882.Teenager:
+	-group,
+
+1883.Telecom:
+	-company,
+
+1884.Telephone:
+	-booth,
+
+1885.Telescope:
+	-lens,
+
+1886.Television:
+	-show,
+
+1887.Temperature:
+	-control,
+	-gauge,
+	-range,
+
+1888.Temple:
+	-bell,
+
+1889.Ten:
+	-dollar,
+	-finger,
+	-speed,
+
+1890.Tenant:
+	-agreement,
+	-lease,
+
+1891.Tennis:
+	-court,
+	-match,
+
+1892.Tenor:
+	-sax,
+
+1893.Tension:
+	-rod,
+
+1894.Tent:
+	-pole,
+
+1895.Term:
+	-limit,
+
+1896.Terminal:
+	-block,
+	-building,
+
+1897.Terrain:
+	-model,
+
+1898.Territory:
+	-map,
+
+1899.Test:
+	math-,
+	midpoint-,
+	online-,
+	placement-,
+	practice-,
+	ratio-,
+	sensitivity-,
+	speed-,
+	spot-,
+	taste-,
+	theory-,
+	unit-,
+	vision-,
+	-case,
+	-drive,
+	-result,
+	-score,
+	-subject,
+	-tube,
+
+1900.Text:
+	heading-,
+	plain-,
+	-alert,
+	-book,
+	-box,
+	-editor,
+	-field,
+	-file,
+	-message,
+
+1901.Thank:
+	-you,
+
+1902.Theft:
+	-protection,
+
+1903.Theme:
+	-park,
+	-song,
+
+1904.Therapy:
+	pet-,
+	-dog,
+	-session,
+
+1905.Thermal:
+	-camera,
+	-energy,
+
+1906.Thermometer:
+	-reading,
+
+1907.Thesis:
+	-statement,
+
+1908.Thick:
+	-skin,
+
+1909.Thief:
+	-alarm,
+
+1910.Thin:
+	-air,
+
+1911.Thing:
+	-maker,
+
+1912.Thinking:
+	-cap,
+
+1913.Third:
+	-grade,
+	-party,
+	-place,
+
+1914.Thirst:
+	-quencher,
+
+1915.Thirty:
+	-minute,
+
+1916.Thorough:
+	-check,
+
+1917.Thought:
+	-leader,
+
+1918.Thread:
+	-count,
+	-spool,
+
+1919.Three:
+	-ring,
+
+1920.Threshold:
+	-voltage,
+
+1921.Throat:
+	-lozenge,
+
+1922.Throw:
+	-pillow,
+
+1923.Thumb:
+	-drive,
+	-tack,
+
+1924.Thumbprint:
+	-lock,
+
+1925.Thunder:
+	-storm,
+
+1926.Ticket:
+	admission-,
+	airline-,
+	event-,
+	online-,
+	plane-,
+	raffle-,
+	season-,
+	traffic-,
+	train-,
+	unused-,
+	-booth,
+	-price,
+	-stub,
+
+1927.Tidal:
+	-wave,
+
+1928.Tide:
+	-pool,
+
+1929.Tie:
+	-breaker,
+	-rod,
+
+1930.Tiger:
+	-lily,
+
+1931.Tight:
+	-end,
+
+1932.Tile:
+	-floor,
+	-grout,
+
+1933.Tilt:
+	-sensor,
+
+1934.Timber:
+	-frame,
+
+1935.Time:
+	arrival-,
+	extra-,
+	lag-,
+	lead-,
+	limited-,
+	local-,
+	meeting-,
+	nap-,
+	preparation-,
+	prime-,
+	reaction-,
+	report-,
+	schedule-,
+	spend-,
+	travel-,
+	turnaround-,
+	unspecified-,
+	wait-,
+	-card,
+	-frame,
+	-limit,
+	-line,
+	-machine,
+	-management,
+	-out,
+	-period,
+	-slot,
+	-stamp,
+	-table,
+
+1936.Timely:
+	-manner,
+
+1937.Timer:
+	-switch,
+
+1938.Timing:
+	-belt,
+
+1939.Tip:
+	-jar,
+
+1940.Tire:
+	-gauge,
+	-iron,
+	-pressure,
+
+1941.Title:
+	-page,
+	-track,
+
+1942.Toad:
+	-stool,
+
+1943.Toast:
+	-rack,
+
+1944.Tobacco:
+	-shop,
+
+1945.Toe:
+	-nail,
+
+1946.Toilet:
+	-brush,
+
+1947.Token:
+	-ring,
+
+1948.Toll:
+	-booth,
+
+1949.Tomato:
+	-paste,
+	-sauce,
+
+1950.Tone:
+	-arm,
+	-control,
+
+1951.Toner:
+	-cartridge,
+
+1952.Tongue:
+	-depressor,
+
+1953.Tool:
+	-belt,
+	-kit,
+	-shed,
+
+1954.Tooth:
+	-brush,
+	-decay,
+	-paste,
+	-pick,
+
+1955.Top:
+	roll-,
+	table-,
+	tank-,
+	-drawer,
+	-floor,
+	-hat,
+	-layer,
+	-model,
+	-priority,
+	-shelf,
+	-speed,
+
+1956.Topic:
+	-sentence,
+
+1957.Tornado:
+	-warning,
+
+1958.Torque:
+	-wrench,
+
+1959.Total:
+	-cost,
+	-loss,
+	-score,
+
+1960.Touch:
+	-sensor,
+
+1961.Touchdown:
+	-pass,
+
+1962.Tour:
+	-bus,
+	-package,
+
+1963.Tourist:
+	-map,
+	-spot,
+
+1964.Towel:
+	-rack,
+
+1965.Tower:
+	-crane,
+	-defense,
+	-fan,
+
+1966.Town:
+	-center,
+	-hall,
+
+1967.Toy:
+	stuffed-,
+	-box,
+	-car,
+	-company,
+	-store,
+
+1968.Track:
+	-meet,
+	-record,
+	-suit,
+
+1969.Tractor:
+	-beam,
+	-trailer,
+
+1970.Trade:
+	-fair,
+	-mark,
+	-route,
+	-secret,
+
+1971.Traffic:
+	-cone,
+	-cop,
+	-jam,
+	-lane,
+	-pattern,
+	-sign,
+
+1972.Tragedy:
+	-mask,
+
+1973.Trail:
+	-map,
+	-mix,
+	-sign,
+
+1974.Train:
+	-engine,
+	-line,
+	-platform,
+	-schedule,
+	-station,
+
+1975.Training:
+	-camp,
+	-plan,
+	-session,
+
+1976.Transaction:
+	-fee,
+
+1977.Transfer:
+	-case,
+
+1978.Transit:
+	-center,
+	-system,
+
+1979.Translate:
+	-tool,
+
+1980.Transmission:
+	-line,
+	-tower,
+
+1981.Transmitter:
+	-chip,
+
+1982.Transparent:
+	-tape,
+
+1983.Transport:
+	-mode,
+
+1984.Transportation:
+	-cost,
+
+1985.Trash:
+	-bag,
+	-bin,
+	-can,
+
+1986.Travel:
+	-agency,
+	-ban,
+	-buddy,
+	-case,
+	-insurance,
+	-mug,
+	-plan,
+
+1987.Tray:
+	-table,
+
+1988.Treasure:
+	-chest,
+	-map,
+
+1989.Tree:
+	decision-,
+	evergreen-,
+	mature-,
+	oak-,
+	orchard-,
+	pear-,
+	pine-,
+	walnut-,
+	-bark,
+	-branch,
+	-frog,
+	-house,
+	-ring,
+
+1990.Trend:
+	-line,
+	-setter,
+
+1991.Trial:
+	-balance,
+	-period,
+
+1992.Triangle:
+	-shape,
+
+1993.Tribal:
+	-leader,
+
+1994.Tribe:
+	-member,
+
+1995.Trick:
+	-question,
+
+1996.Trigger:
+	-point,
+
+1997.Trim:
+	-level,
+
+1998.Trip:
+	-planner,
+	-wire,
+
+1999.Triple:
+	-jump,
+
+2000.Trophy:
+	-case,
+
+2001.Tropical:
+	-fish,
+	-storm,
+
+2002.Trouble:
+	-spot,
+
+2003.Trousers:
+	-pocket,
+
+2004.Truck:
+	-driver,
+
+2005.True:
+	-friend,
+	-north,
+
+2006.Trust:
+	-fund,
+
+2007.Truth:
+	-table,
+
+2008.Tube:
+	-sock,
+
+2009.Tubing:
+	-hill,
+
+2010.Tuition:
+	-fee,
+
+2011.Tulip:
+	-bulb,
+
+2012.Tumble:
+	-dryer,
+
+2013.Tuning:
+	-fork,
+
+2014.Tunnel:
+	-vision,
+
+2015.Turbine:
+	-engine,
+
+2016.Turbo:
+	-boost,
+
+2017.Turf:
+	-field,
+
+2018.Turkey:
+	-breast,
+
+2019.Turn:
+	-signal,
+	-style,
+
+2020.Turnover:
+	-rate,
+
+2021.Turtle:
+	-shell,
+
+2022.Tutor:
+	-session,
+
+2023.Tuxedo:
+	-jacket,
+
+2024.Twin:
+	-bed,
+	-brother,
+	-engine,
+	-sister,
+
+2025.Twist:
+	-cap,
+	-tie,
+
+2026.Type:
+	-font,
+	-rating,
+	-writer,
+
+2027.Typical:
+	-case,
+
+2028.Ultra:
+	-sound,
+
+2029.Umbrella:
+	-stand,
+
+2030.Umpire:
+	-mask,
+
+2031.Unclaimed:
+	-baggage,
+	-property,
+
+2032.Unconscious:
+	-mind,
+
+2033.Under:
+	-arm,
+	-cover,
+	-current,
+	-estimate,
+	-investigation,
+	-layer,
+	-oath,
+	-pressure,
+	-review,
+
+2034.Underground:
+	-cave,
+	-tunnel,
+
+2035.Underlying:
+	-cause,
+
+2036.Underpass:
+	-bridge,
+
+2037.Underwear:
+	-drawer,
+
+2038.Undo:
+	-button,
+
+2039.Uneven:
+	-surface,
+
+2040.Unexpected:
+	-event,
+
+2041.Unfinished:
+	-business,
+
+2042.Unified:
+	-field,
+
+2043.Uniform:
+	-policy,
+
+2044.Union:
+	-dues,
+
+2045.Unit:
+	-price,
+
+2046.Unity:
+	-candle,
+
+2047.Universal:
+	-adapter,
+	-remote,
+
+2048.University:
+	-library,
+
+2049.Unknown:
+	-caller,
+	-error,
+
+2050.Unlawful:
+	-entry,
+
+2051.Unlicensed:
+	-driver,
+
+2052.Unpack:
+	-bag,
+
+2053.Unplanned:
+	-event,
+
+2054.Unplug:
+	-device,
+
+2055.Unread:
+	-message,
+
+2056.Unregistered:
+	-user,
+
+2057.Unsafe:
+	-area,
+
+2058.Unsolved:
+	-case,
+
+2059.Unspoken:
+	-rule,
+
+2060.Unstable:
+	-element,
+
+2061.Unsubscribed:
+	-user,
+
+2062.Untitled:
+	-document,
+
+2063.Update:
+	-log,
+	-request,
+
+2064.Upgrade:
+	-path,
+	-plan,
+
+2065.Upload:
+	-speed,
+
+2066.Upper:
+	-arm,
+	-case,
+	-deck,
+
+2067.Upscale:
+	-restaurant,
+
+2068.Upstream:
+	-server,
+
+2069.Upward:
+	-trend,
+
+2070.Urban:
+	-area,
+	-center,
+	-development,
+	-legend,
+	-planner,
+	-renewal,
+
+2071.Urge:
+	-control,
+
+2072.Urgent:
+	-care,
+	-message,
+
+2073.Usage:
+	-rate,
+
+2074.Use:
+	-case,
+	-tax,
+
+2075.User:
+	-agreement,
+	-experience,
+	-input,
+	-interface,
+	-manual,
+	-name,
+	-profile,
+	-setting,
+
+2076.Utility:
+	-belt,
+	-bill,
+	-knife,
+	-line,
+	-pole,
+	-vehicle,
+	-worker,
+
+2077.Utter:
+	-failure,
+	-silence,
+
+2078.Vacation:
+	-package,
+
+2079.Vaccine:
+	-dose,
+	-shot,
+
+2080.Vacuum:
+	-cleaner,
+	-pump,
+
+2081.Vague:
+	-idea,
+
+2082.Valet:
+	-parking,
+
+2083.Valid:
+	-point,
+	-reason,
+
+2084.Valley:
+	-view,
+
+2085.Valuable:
+	-asset,
+
+2086.Value:
+	-pack,
+	-system,
+
+2087.Valve:
+	-stem,
+
+2088.Van:
+	-driver,
+	-rental,
+
+2089.Vanilla:
+	-bean,
+	-extract,
+
+2090.Vanishing:
+	-point,
+
+2091.Vapor:
+	-barrier,
+	-trail,
+
+2092.Variable:
+	-cost,
+	-rate,
+
+2093.Variance:
+	-report,
+
+2094.Variant:
+	-strain,
+
+2095.Variation:
+	-order,
+
+2096.Vascular:
+	-system,
+
+2097.Vault:
+	-door,
+
+2098.Vector:
+	-graphic,
+
+2099.Vehicle:
+	-emission,
+	-history,
+	-registration,
+	-repair,
+
+2100.Vendor:
+	-booth,
+	-list,
+	-table,
+
+2101.Venom:
+	-gland,
+
+2102.Vent:
+	-pipe,
+
+2103.Ventilation:
+	-duct,
+	-fan,
+
+2104.Venture:
+	-capital,
+
+2105.Venue:
+	-capacity,
+	-map,
+
+2106.Verbal:
+	-cue,
+	-warning,
+
+2107.Verdict:
+	-form,
+	-reading,
+
+2108.Vernier:
+	-caliper,
+
+2109.Verse:
+	-novel,
+
+2110.Vertical:
+	-axis,
+	-bar,
+	-line,
+	-takeoff,
+
+2111.Vessel:
+	-traffic,
+
+2112.Veteran:
+	-status,
+
+2113.Veterinary:
+	-clinic,
+
+2114.Viable:
+	-option,
+
+2115.Vibrant:
+	-color,
+	-hue,
+
+2116.Vibration:
+	-mode,
+
+2117.Vice:
+	-chair,
+	-president,
+
+2118.Victim:
+	-advocate,
+	-impact,
+
+2119.Victory:
+	-lap,
+
+2120.Video:
+	-call,
+	-camera,
+	-chat,
+	-clip,
+	-conference,
+	-file,
+	-game,
+	-message,
+	-player,
+	-stream,
+	-tape,
+
+2121.Viewer:
+	-rating,
+
+2122.Viewing:
+	-area,
+	-audience,
+	-platform,
+
+2123.Viewpoint:
+	-bias,
+
+2124.Vinyl:
+	-record,
+
+2125.Violin:
+	-case,
+	-lesson,
+
+2126.Virtual:
+	-assistant,
+	-classroom,
+	-meeting,
+	-reality,
+	-server,
+
+2127.Visible:
+	-spectrum,
+
+2128.Vision:
+	-care,
+
+2129.Visit:
+	-length,
+
+2130.Visitor:
+	-badge,
+	-center,
+	-pass,
+
+2131.Visual:
+	-aid,
+	-art,
+	-field,
+	-memory,
+
+2132.Vital:
+	-organ,
+	-record,
+	-sign,
+
+2133.Vitamin:
+	-capsule,
+	-content,
+	-dose,
+	-supplement,
+
+2134.Vivid:
+	-color,
+
+2135.Vocal:
+	-range,
+
+2136.Voice:
+	-command,
+	-mail,
+	-message,
+	-recognition,
+	-recorder,
+
+2137.Volatile:
+	-memory,
+
+2138.Volume:
+	-control,
+	-knob,
+	-level,
+
+2139.Volunteer:
+	-group,
+	-hours,
+
+2140.Voting:
+	-booth,
+	-district,
+	-machine,
+	-record,
+
+2141.Voucher:
+	-program,
+
+2142.Vowel:
+	-sound,
+
+2143.Voyage:
+	-map,
+
+2144.Wage:
+	-gap,
+	-increase,
+	-scale,
+	-worker,
+
+2145.Waist:
+	-band,
+	-size,
+
+2146.Wait:
+	-list,
+
+2147.Waiting:
+	-area,
+	-list,
+
+2148.Walk:
+	-away,
+	-out,
+	-through,
+	-way,
+
+2149.Walking:
+	-boot,
+	-path,
+	-stick,
+
+2150.Wall:
+	-art,
+	-clock,
+	-lamp,
+	-mount,
+	-outlet,
+	-plug,
+	-socket,
+
+2151.Wallet:
+	-case,
+	-size,
+
+2152.Walrus:
+	-tusk,
+
+2153.Wanderlust:
+	-gene,
+
+2154.Wardrobe:
+	-malfunction,
+
+2155.Warehouse:
+	-worker,
+
+2156.Warfare:
+	-training,
+
+2157.Warrior:
+	-spirit,
+
+2158.Washing:
+	-machine,
+	-powder,
+	-station,
+
+2159.Washroom:
+	-sink,
+
+2160.Waste:
+	-disposal,
+	-management,
+
+2161.Watch:
+	hurricane-,
+	neighborhood-,
+	pocket-,
+	-band,
+	-face,
+	-list,
+	-repair,
+	-strap,
+	-tower,
+
+2162.Water:
+	pond-,
+	pure-,
+	surface-,
+	tonic-,
+	under-,
+	waste-,
+	well-,
+	-balloon,
+	-bottle,
+	-cooler,
+	-damage,
+	-filter,
+	-fountain,
+	-glass,
+	-heater,
+	-main,
+	-meter,
+	-park,
+	-pipe,
+	-plant,
+	-polo,
+	-pressure,
+	-pump,
+	-quality,
+	-reservoir,
+	-sample,
+	-slide,
+	-softener,
+	-supply,
+	-table,
+	-tank,
+	-tower,
+	-treatment,
+	-valve,
+	-vapor,
+
+2163.Waterfall:
+	-hike,
+
+2164.Waterproof:
+	-jacket,
+
+2165.Wave:
+	-length,
+	-pool,
+
+2166.Wavelength:
+	-band,
+
+2167.Wavy:
+	-hair,
+
+2168.Weak:
+	-link,
+
+2169.Wealth:
+	-gap,
+	-management,
+
+2170.Weather:
+	-chart,
+	-condition,
+	-forecast,
+	-pattern,
+	-report,
+	-station,
+
+2171.Web:
+	-address,
+	-browser,
+	-camera,
+	-designer,
+	-development,
+	-hosting,
+	-page,
+	-portal,
+	-search,
+	-server,
+	-site,
+
+2172.Webinar:
+	-host,
+
+2173.Website:
+	-design,
+	-link,
+
+2174.Wedding:
+	-band,
+	-cake,
+	-ceremony,
+	-date,
+	-invitation,
+	-party,
+	-planner,
+	-ring,
+
+2175.Week:
+	-day,
+	-end,
+	-long,
+	-night,
+	-number,
+	-off,
+	-schedule,
+
+2176.Weekend:
+	-getaway,
+	-job,
+
+2177.Weekly:
+	-meeting,
+	-report,
+
+2178.Weight:
+	-bench,
+	-gain,
+	-limit,
+	-loss,
+	-scale,
+
+2179.Welcome:
+	-gift,
+	-mat,
+	-sign,
+
+2180.Welfare:
+	-program,
+
+2181.Well:
+	-being,
+	-known,
+
+2182.Wellness:
+	-coach,
+	-program,
+
+2183.Wet:
+	-suit,
+
+2184.Whale:
+	-shark,
+
+2185.Wheel:
+	color-,
+	measuring-,
+	steering-,
+	wagon-,
+	-alignment,
+	-base,
+	-chair,
+	-lock,
+	-well,
+
+2186.Wheelbarrow:
+	-tire,
+
+2187.Whirl:
+	-pool,
+
+2188.Whisk:
+	-broom,
+
+2189.Whisker:
+	-length,
+
+2190.White:
+	-board,
+	-collar,
+	-dwarf,
+	-flag,
+	-gold,
+	-light,
+	-noise,
+	-paper,
+	-space,
+
+2191.Whiteboard:
+	-marker,
+
+2192.Whole:
+	-grain,
+	-wheat,
+
+2193.Wholesale:
+	-price,
+
+2194.Wicked:
+	-grin,
+
+2195.Wide:
+	-angle,
+	-receiver,
+
+2196.Widening:
+	-gap,
+
+2197.Wifi:
+	-connection,
+	-hotspot,
+	-network,
+
+2198.Wild:
+	-guess,
+	-ride,
+
+2199.Wilderness:
+	-area,
+
+2200.Wildfire:
+	-smoke,
+
+2201.Will:
+	-call,
+
+2202.Wind:
+	-chill,
+	-farm,
+	-gust,
+	-speed,
+	-storm,
+	-tunnel,
+	-turbine,
+
+2203.Windbreaker:
+	-jacket,
+
+2204.Window:
+	attic-,
+	awning-,
+	display-,
+	open-,
+	-blind,
+	-frame,
+	-pane,
+	-seat,
+	-shade,
+	-sill,
+	-washer,
+	-well,
+
+2205.Windshield:
+	-wiper,
+
+2206.Wine:
+	-bottle,
+	-cellar,
+
+2207.Wing:
+	-span,
+
+2208.Winner:
+	-circle,
+	-list,
+
+2209.Winter:
+	-coat,
+	-garden,
+	-holiday,
+	-jacket,
+	-sport,
+
+2210.Wipe:
+	-clean,
+
+2211.Wire:
+	-brush,
+	-cutter,
+	-fence,
+	-hanger,
+	-mesh,
+	-transfer,
+
+2212.Wireless:
+	-device,
+	-network,
+	-signal,
+
+2213.Wiring:
+	-diagram,
+
+2214.Wisdom:
+	-tooth,
+
+2215.Wish:
+	-list,
+
+2216.Witch:
+	-hazel,
+
+2217.Withdrawal:
+	-limit,
+
+2218.Withholding:
+	-tax,
+
+2219.Witness:
+	-stand,
+	-statement,
+
+2220.Wolf:
+	-pack,
+
+2221.Woman:
+	-leader,
+
+2222.Wonder:
+	-drug,
+	-kid,
+
+2223.Wood:
+	-block,
+	-carving,
+	-chip,
+	-finish,
+	-floor,
+	-panel,
+	-stove,
+	-working,
+
+2224.Wooden:
+	-crate,
+	-spoon,
+
+2225.Wool:
+	-blanket,
+
+2226.Word:
+	buzz-,
+	kind-,
+	root-,
+	single-,
+	swear-,
+	-cloud,
+	-count,
+	-document,
+	-family,
+	-game,
+	-list,
+	-order,
+	-play,
+	-problem,
+	-processor,
+	-search,
+
+2227.Work:
+	literary-,
+	original-,
+	shift-,
+	volunteer-,
+	-area,
+	-bench,
+	-ethic,
+	-force,
+	-hours,
+	-order,
+	-permit,
+	-schedule,
+	-site,
+	-space,
+	-station,
+	-table,
+	-week,
+	-zone,
+
+2228.Worker:
+	-bee,
+	-union,
+
+2229.Working:
+	-condition,
+	-memory,
+
+2230.Workout:
+	-buddy,
+
+2231.Workshop:
+	-leader,
+	-session,
+
+2232.World:
+	-atlas,
+	-cup,
+	-economy,
+	-famous,
+	-leader,
+	-map,
+	-record,
+	-series,
+	-view,
+
+2233.Worn:
+	-path,
+
+2234.Worried:
+	-look,
+
+2235.Worship:
+	-leader,
+
+2236.Wound:
+	-care,
+
+2237.Wreath:
+	-ring,
+
+2238.Wreck:
+	-site,
+
+2239.Wrestling:
+	-match,
+
+2240.Wrist:
+	-band,
+	-bone,
+	-watch,
+
+2241.Writer:
+	-block,
+	-group,
+
+2242.Writing:
+	-desk,
+	-prompt,
+	-sample,
+
+2243.Written:
+	-consent,
+
+2244.Wrong:
+	-answer,
+	-turn,
+
+2245.X-ray:
+	-beam,
+	-machine,
+	-scan,
+	-technician,
+	-tube,
+
+2246.Xenon:
+	-bulb,
+	-gas,
+
+2247.Xerox:
+	-machine,
+
+2248.Xylem:
+	-vessel,
+
+2249.Xylophone:
+	-bar,
+
+2250.Yarn:
+	-color,
+	-skein,
+
+2251.Yawn:
+	-reflex,
+
+2252.Year:
+	-end,
+	-round,
+
+2253.Yearbook:
+	-photo,
+
+2254.Yearly:
+	-review,
+
+2255.Yellow:
+	-fever,
+	-jacket,
+	-zone,
+
+2256.Yen:
+	-value,
+
+2257.Yes:
+	-vote,
+
+2258.Yoga:
+	-class,
+	-instructor,
+	-mat,
+	-pose,
+	-studio,
+
+2259.Yogurt:
+	-drink,
+	-parfait,
+
+2260.Yolk:
+	-color,
+
+2261.Young:
+	-couple,
+	-man,
+	-woman,
+
+2262.Youth:
+	-center,
+	-group,
+	-league,
+	-program,
+
+2263.Yummy:
+	-treat,
+
+2264.Zebra:
+	-crossing,
+	-finch,
+	-mussel,
+	-print,
+
+2265.Zero:
+	-balance,
+	-emission,
+	-gravity,
+	-hour,
+	-point,
+	-tolerance,
+	-waste,
+
+2266.Zinc:
+	-alloy,
+	-oxide,
+
+2267.Zip:
+	-line,
+	-lock,
+	-pocket,
+	-tie,
+
+2268.Zipper:
+	-bag,
+	-pull,
+
+2269.Zone:
+	-defense,
+	-plate,
+
+2270.Zoning:
+	-law,
+
+2271.Zoo:
+	-exhibit,
+	-keeper,
+	-visitor,
+
+2272.Zoom:
+	-lens,
+	-meeting,
+	-session,
+
+2273.Zucchini:
+	-bread,
+	-noodle,
