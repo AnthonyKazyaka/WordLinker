@@ -23,5 +23,42 @@
     <div *ngIf="!dictionaryLoaded" class="loading">
       Loading word dictionary...
     </div>
+    
+    <div class="stats-container" *ngIf="gameStats && gameStats.gamesPlayed > 0">
+      <h2>Your Stats</h2>
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-value">{{ gameStats.gamesPlayed }}</span>
+          <span class="stat-label">Games Played</span>
+        </div>
+        
+        <div class="stat-item">
+          <span class="stat-value">{{ gameStats.highestScore }}</span>
+          <span class="stat-label">Highest Score</span>
+        </div>
+        
+        <div class="stat-item">
+          <span class="stat-value">{{ gameStats.longestChain }}</span>
+          <span class="stat-label">Longest Chain</span>
+        </div>
+        
+        <div class="stat-item">
+          <span class="stat-value">{{ gameStats.totalWordsLinked }}</span>
+          <span class="stat-label">Total Words Linked</span>
+        </div>
+        
+        <div class="stat-item">
+          <span class="stat-value">{{ gameStats.customStartWords }}</span>
+          <span class="stat-label">Custom Start Games</span>
+        </div>
+        
+        <div class="stat-item">
+          <span class="stat-value">{{ gameStats.randomStartWords }}</span>
+          <span class="stat-label">Random Start Games</span>
+        </div>
+      </div>
+      
+      <button (click)="resetStats()" class="reset-stats-button">Reset Stats</button>
+    </div>
   </div>
 </div>

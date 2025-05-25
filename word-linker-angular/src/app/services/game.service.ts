@@ -3,6 +3,7 @@ import { BehaviorSubject, Observable } from 'rxjs';
 import { Game } from '../models/game.model';
 import { WordPair } from '../models/word-pair.model';
 import { DictionaryService } from './dictionary.service';
+import { StatsService } from './stats.service';
 
 @Injectable({
   providedIn: 'root'
@@ -16,8 +17,12 @@ export class GameService {
   };
 
   private gameState = new BehaviorSubject<Game>({ ...this.defaultGame });
+  private customStartWordUsed = false;
 
-  constructor(private dictionaryService: DictionaryService) { }
+  constructor(
+    private dictionaryService: DictionaryService,
+    private statsService: StatsService
+  ) { }
 
   getGameState(): Observable<Game> {
     return this.gameState.asObservable();
@@ -25,6 +30,8 @@ export class GameService {
 
   startNewGame(startWord?: string): void {
     const newGame: Game = { ...this.defaultGame };
+    
+    this.customStartWordUsed = !!startWord;
     newGame.currentWord = startWord || this.getRandomWord();
     newGame.isGameOver = false;
     newGame.currentWordChain = [];
@@ -57,6 +64,13 @@ export class GameService {
       if (currentGame.currentWordChain.length >= currentGame.maxChainLength) {
         currentGame.isGameOver = true;
         currentGame.score += 50; // Bonus for completing the chain
+        
+        // Record stats when max chain length is reached
+        this.statsService.recordGamePlayed(
+          currentGame.score,
+          currentGame.currentWordChain.length,
+          this.customStartWordUsed
+        );
       }
       
       this.gameState.next({ ...currentGame });
@@ -80,6 +94,14 @@ export class GameService {
   endGame(): void {
     const currentGame = this.gameState.value;
     currentGame.isGameOver = true;
+    
+    // Record stats when game ends
+    this.statsService.recordGamePlayed(
+      currentGame.score,
+      currentGame.currentWordChain.length,
+      this.customStartWordUsed
+    );
+    
     this.gameState.next({ ...currentGame });
   }
 

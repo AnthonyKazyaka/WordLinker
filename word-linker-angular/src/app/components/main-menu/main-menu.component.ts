@@ -1,9 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { Subscription } from 'rxjs';
 import { DictionaryService } from '../../services/dictionary.service';
 import { GameService } from '../../services/game.service';
+import { StatsService, GameStats } from '../../services/stats.service';
 
 @Component({
   selector: 'app-main-menu',
@@ -12,13 +14,16 @@ import { GameService } from '../../services/game.service';
   templateUrl: './main-menu.component.html',
   styleUrls: ['./main-menu.component.scss']
 })
-export class MainMenuComponent implements OnInit {
+export class MainMenuComponent implements OnInit, OnDestroy {
   dictionaryLoaded = false;
   startWord = '';
+  gameStats?: GameStats;
+  private statsSubscription!: Subscription;
   
   constructor(
     private dictionaryService: DictionaryService,
     private gameService: GameService,
+    private statsService: StatsService,
     private router: Router
   ) {}
 
@@ -50,10 +55,27 @@ export class MainMenuComponent implements OnInit {
           console.error('Failed to load first dictionary file:', error);
         }
       });
+      
+    // Subscribe to stats
+    this.statsSubscription = this.statsService.getStats().subscribe(stats => {
+      this.gameStats = stats;
+    });
+  }
+  
+  ngOnDestroy(): void {
+    if (this.statsSubscription) {
+      this.statsSubscription.unsubscribe();
+    }
   }
 
   startGame(): void {
     this.gameService.startNewGame(this.startWord);
     this.router.navigate(['/game']);
+  }
+  
+  resetStats(): void {
+    if (confirm('Are you sure you want to reset all game statistics?')) {
+      this.statsService.resetStats();
+    }
   }
 }
