@@ -22,7 +22,7 @@
       <ul *ngIf="game.currentWordChain.length > 0">
         <li *ngFor="let pair of game.currentWordChain; let i = index">
           <span class="order">{{ i + 1 }}.</span>
-          <span class="word-pair">{{ pair.firstWord }} - {{ pair.secondWord }}</span>
+          <span class="word-pair">{{ pair.firstWord }} {{ pair.secondWord }}</span>
         </li>
       </ul>
     </div>
@@ -38,7 +38,7 @@
         <li *ngFor="let pair of availableWordPairs" 
             (click)="selectWordPair(pair)" 
             class="word-pair-item">
-          <span class="word-pair">{{ pair.firstWord }} - {{ pair.secondWord }}</span>
+          <span class="word-pair">{{ pair.firstWord }} {{ pair.secondWord }}</span>
         </li>
       </ul>
     </div>
