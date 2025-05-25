@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { GameService } from '../../services/game.service';
 import { Game } from '../../models/game.model';
 import { WordPair } from '../../models/word-pair.model';
+import { StatsService, GameStats } from '../../services/stats.service';
 
 @Component({
   selector: 'app-game-play',
@@ -17,10 +18,13 @@ import { WordPair } from '../../models/word-pair.model';
 export class GamePlayComponent implements OnInit, OnDestroy {
   game!: Game;
   availableWordPairs: WordPair[] = [];
+  playerStats?: GameStats;
   private gameSubscription!: Subscription;
+  private statsSubscription!: Subscription;
   
   constructor(
     private gameService: GameService,
+    private statsService: StatsService,
     private router: Router
   ) {}
 
@@ -44,11 +48,19 @@ export class GamePlayComponent implements OnInit, OnDestroy {
         }, 300);
       }
     });
+
+    // Subscribe to stats
+    this.statsSubscription = this.statsService.getStats().subscribe(stats => {
+      this.playerStats = stats;
+    });
   }
 
   ngOnDestroy(): void {
     if (this.gameSubscription) {
       this.gameSubscription.unsubscribe();
+    }
+    if (this.statsSubscription) {
+      this.statsSubscription.unsubscribe();
     }
   }
 
