@@ -64,7 +64,10 @@ export class DictionaryService {
       
       // If line ends with colon, it's a new main word
       if (trimmedLine.endsWith(':')) {
-        currentWord = trimmedLine.substring(0, trimmedLine.length - 1).toLowerCase();
+        // Extract the word, removing any numeric prefix like "123."
+        const rawWord = trimmedLine.substring(0, trimmedLine.length - 1);
+        // Use a regex to remove the number prefix if present (e.g., "1234.Water" -> "Water")
+        currentWord = rawWord.replace(/^\d+\./, '').toLowerCase();
       } else if (trimmedLine) {
         let pair: WordPair | null = null;
         
