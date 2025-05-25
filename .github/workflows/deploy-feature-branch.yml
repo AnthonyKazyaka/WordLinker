@@ -104,11 +104,8 @@ jobs:
           # Check if URL is already in the description
           if [[ "$PR_BODY" != *"$BRANCH_URL"* ]]; then
             # Append the URL to the PR description
-            UPDATED_BODY="${PR_BODY}
-
-### Preview Deployment
-
-You can preview this branch at: [${BRANCH_URL}](${BRANCH_URL})"
+            NEWLINE=$'\n'
+            UPDATED_BODY="${PR_BODY}${NEWLINE}${NEWLINE}### Preview Deployment${NEWLINE}${NEWLINE}You can preview this branch at: [${BRANCH_URL}](${BRANCH_URL})"
             
             # Update the PR description
             gh pr edit ${{ env.PR_NUMBER }} --body "$UPDATED_BODY"
