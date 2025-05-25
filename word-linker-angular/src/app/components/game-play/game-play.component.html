@@ -2,7 +2,10 @@
   <div class="game-header">
     <h1>Word Linker Game</h1>
     <div class="game-stats">
-      <div class="score">Score: {{ game.score }}</div>
+      <div class="score">
+        Score: {{ game.score }}
+        <span class="tooltip">10 points per word + 50 bonus for completing the chain</span>
+      </div>
       <div class="chain-length">Chain Length: {{ game.currentWordChain.length || 0 }}/{{ game.maxChainLength }}</div>
     </div>
   </div>
@@ -22,7 +25,7 @@
       <ul *ngIf="game.currentWordChain.length > 0">
         <li *ngFor="let pair of game.currentWordChain; let i = index">
           <span class="order">{{ i + 1 }}.</span>
-          <span class="word-pair">{{ pair.firstWord }} - {{ pair.secondWord }}</span>
+          <span class="word-pair">{{ pair.firstWord }} {{ pair.secondWord }}</span>
         </li>
       </ul>
     </div>
@@ -38,7 +41,7 @@
         <li *ngFor="let pair of availableWordPairs" 
             (click)="selectWordPair(pair)" 
             class="word-pair-item">
-          <span class="word-pair">{{ pair.firstWord }} - {{ pair.secondWord }}</span>
+          <span class="word-pair">{{ pair.firstWord }} {{ pair.secondWord }}</span>
         </li>
       </ul>
     </div>

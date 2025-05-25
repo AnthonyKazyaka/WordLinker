@@ -19,7 +19,32 @@ export class DictionaryService {
   loadWordData(filePath: string): Observable<Dictionary> {
     return this.http.get(filePath, { responseType: 'text' }).pipe(
       map(text => this.parseWordData(text)),
-      tap(dictionary => this.dictionary = dictionary),
+      tap(dictionary => {
+        // Merge with existing dictionary instead of replacing
+        dictionary.wordPairs.forEach(pair => {
+          // Only add if not already in the dictionary
+          const exists = this.dictionary.wordPairs.some(
+            existingPair => 
+              existingPair.firstWord === pair.firstWord && 
+              existingPair.secondWord === pair.secondWord
+          );
+          
+          if (!exists) {
+            this.dictionary.wordPairs.push(pair);
+            
+            // Update the index
+            if (!this.dictionary.wordIndex.has(pair.firstWord)) {
+              this.dictionary.wordIndex.set(pair.firstWord, []);
+            }
+            this.dictionary.wordIndex.get(pair.firstWord)!.push(pair);
+            
+            if (!this.dictionary.wordIndex.has(pair.secondWord)) {
+              this.dictionary.wordIndex.set(pair.secondWord, []);
+            }
+            this.dictionary.wordIndex.get(pair.secondWord)!.push(pair);
+          }
+        });
+      }),
       catchError(error => {
         console.error('Error loading word data:', error);
         return of(this.dictionary);
@@ -47,13 +72,21 @@ export class DictionaryService {
         if (trimmedLine.startsWith('-')) {
           // Format: "-secondWord," -> first word is the current word
           const secondWord = trimmedLine.substring(1, trimmedLine.length - 1).toLowerCase();
-          pair = { firstWord: currentWord, secondWord };
+          
+          // Filter out suffixes like -ing, -er, -ed, etc.
+          if (this.isValidWordPair(currentWord, secondWord)) {
+            pair = { firstWord: currentWord, secondWord };
+          }
         } 
         // Case: "word-,"
         else if (trimmedLine.endsWith('-,')) {
           // Format: "firstWord-," -> second word is the current word
           const firstWord = trimmedLine.substring(0, trimmedLine.length - 2).toLowerCase();
-          pair = { firstWord, secondWord: currentWord };
+          
+          // Filter out suffixes
+          if (this.isValidWordPair(firstWord, currentWord)) {
+            pair = { firstWord, secondWord: currentWord };
+          }
         }
         
         if (pair) {
@@ -75,6 +108,26 @@ export class DictionaryService {
     }
     
     return { wordPairs, wordIndex };
+  }
+
+  // Helper method to filter out invalid word pairs
+  private isValidWordPair(firstWord: string, secondWord: string): boolean {
+    // Filter out suffixes (words with less than 3 characters)
+    if (secondWord.length < 3 || firstWord.length < 3) {
+      return false;
+    }
+    
+    // List of common suffixes to exclude
+    const commonSuffixes = ['ing', 'er', 'ed', 'es', 'ly', 'ment', 'able', 'ible', 'ful', 'tion'];
+    
+    // Check if the second word is just a suffix
+    for (const suffix of commonSuffixes) {
+      if (secondWord === suffix) {
+        return false;
+      }
+    }
+    
+    return true;
   }
 
   getDictionary(): Dictionary {
