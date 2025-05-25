@@ -1,23 +1,38 @@
 .game-container {
   max-width: 900px;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 1rem;
   
   .game-header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 2rem;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
     
     h1 {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
       color: #2c3e50;
-      margin: 0;
+      margin: 0 0 0.5rem 0;
+      
+      @media (min-width: 768px) {
+        font-size: 1.8rem;
+        margin: 0;
+      }
     }
     
     .game-stats {
       display: flex;
-      gap: 1.5rem;
+      gap: 1rem;
+      flex-wrap: wrap;
+      
+      @media (min-width: 768px) {
+        gap: 1.5rem;
+      }
       
       .score, .chain-length {
         background-color: #f8f9fa;
@@ -25,10 +40,46 @@
         border-radius: 4px;
         font-weight: 500;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        position: relative;
       }
       
       .score {
         color: #28a745;
+        
+        .tooltip {
+          visibility: hidden;
+          width: 200px;
+          background-color: #555;
+          color: #fff;
+          text-align: center;
+          border-radius: 6px;
+          padding: 5px;
+          position: absolute;
+          z-index: 1;
+          bottom: 125%;
+          left: 50%;
+          margin-left: -100px;
+          opacity: 0;
+          transition: opacity 0.3s;
+          font-weight: normal;
+          font-size: 0.8rem;
+        }
+        
+        .tooltip::after {
+          content: "";
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          margin-left: -5px;
+          border-width: 5px;
+          border-style: solid;
+          border-color: #555 transparent transparent transparent;
+        }
+        
+        &:hover .tooltip {
+          visibility: visible;
+          opacity: 1;
+        }
       }
       
       .chain-length {
@@ -58,10 +109,14 @@
   
   .word-chain-container {
     background-color: #f8f9fa;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 6px;
     margin-bottom: 1.5rem;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    
+    @media (min-width: 768px) {
+      padding: 1.5rem;
+    }
     
     h3 {
       margin-top: 0;
@@ -78,6 +133,12 @@
       list-style: none;
       padding: 0;
       margin: 0;
+      max-height: 200px;
+      overflow-y: auto;
+      
+      @media (min-width: 768px) {
+        max-height: 300px;
+      }
       
       li {
         display: flex;
@@ -104,10 +165,14 @@
   
   .available-pairs-container {
     background-color: #f8f9fa;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 6px;
     margin-bottom: 1.5rem;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    
+    @media (min-width: 768px) {
+      padding: 1.5rem;
+    }
     
     h3 {
       margin-top: 0;
@@ -125,8 +190,13 @@
       padding: 0;
       margin: 0;
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 0.75rem;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 0.5rem;
+      
+      @media (min-width: 768px) {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 0.75rem;
+      }
       
       li.word-pair-item {
         padding: 0.75rem 1rem;
@@ -140,6 +210,11 @@
           background-color: #f1f8ff;
           transform: translateY(-2px);
           box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        &:active {
+          transform: translateY(0);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
         }
         
         .word-pair {
